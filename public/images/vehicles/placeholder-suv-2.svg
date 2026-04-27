@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg1)"/>
+  <g fill="#1E3A8A" opacity="0.08">
+    <circle cx="200" cy="850" r="380"/>
+    <circle cx="1500" cy="200" r="280"/>
+  </g>
+  <g transform="translate(800,500)" fill="none" stroke="#1E3A8A" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M-340 90 L-260 -60 Q-220 -120 -150 -130 L150 -130 Q220 -120 260 -60 L340 90 Z" fill="#1E3A8A" fill-opacity="0.08"/>
+    <path d="M-340 90 L340 90 L380 90 L380 160 L320 160 L300 200 L-300 200 L-320 160 L-380 160 L-380 90 Z" fill="#0F172A"/>
+    <path d="M-200 -110 L-100 -110 L-80 -10 L-200 -10 Z M-60 -110 L60 -110 L60 -10 L-60 -10 Z M80 -110 L180 -110 L200 -10 L80 -10 Z" fill="#FFFFFF" stroke="#1E3A8A" stroke-width="3"/>
+    <circle cx="-220" cy="200" r="60" fill="#0F172A"/>
+    <circle cx="-220" cy="200" r="32" fill="#94A3B8" stroke="#1E3A8A" stroke-width="2"/>
+    <circle cx="220"  cy="200" r="60" fill="#0F172A"/>
+    <circle cx="220"  cy="200" r="32" fill="#94A3B8" stroke="#1E3A8A" stroke-width="2"/>
+  </g>
+  <g fill="#475569" font-family="Ubuntu, sans-serif" font-size="22" font-weight="500" text-anchor="middle">
+    <text x="800" y="940">Photo placeholder — replace with real vehicle image before launch</text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "self-drive-rental",
+    "title": "Self-drive rental",
+    "icon": "car",
+    "summary": "Pick up the keys, drive yourself.",
+    "body": "Take any vehicle in our fleet on your own terms. Daily, weekly and monthly rates available. Comprehensive insurance included; cross-border permits arranged on request."
+  },
+  {
+    "id": "chauffeur-driven",
+    "title": "Chauffeur-driven",
+    "icon": "users",
+    "summary": "Sit back. We drive.",
+    "body": "A vetted, uniformed driver handles the road while you handle the day. Hourly, daily and multi-day rates. Common for executive transfers, weddings and tours."
+  },
+  {
+    "id": "airport-transfers",
+    "title": "Airport transfers",
+    "icon": "pin",
+    "summary": "Door-to-door from the runway.",
+    "body": "Pre-booked transfers from RGM (Harare), JM Nkomo (Bulawayo), Victoria Falls Airport and Beitbridge border into Masvingo, Great Zimbabwe and beyond."
+  },
+  {
+    "id": "long-term-rental",
+    "title": "Long-term rental",
+    "icon": "calendar",
+    "summary": "Discounted weekly and monthly.",
+    "body": "Renting for two weeks or two months? Talk to us — we offer significantly reduced day-rates for long-term rentals on most fleet."
+  },
+  {
+    "id": "corporate-ngo",
+    "title": "Corporate & NGO accounts",
+    "icon": "shield",
+    "summary": "Invoiced billing, account managers.",
+    "body": "Companies and NGOs working in Masvingo, Gonarezhou, Beitbridge and beyond can open invoiced accounts with negotiated rates and a single point of contact."
+  },
+  {
+    "id": "wedding-events",
+    "title": "Weddings & events",
+    "icon": "crown",
+    "summary": "Make the day arrive in style.",
+    "body": "Luxury sedans, decorated bridal cars, and matching convoy hire for weddings, graduations, and corporate events across Masvingo and Harare."
+  }
+]

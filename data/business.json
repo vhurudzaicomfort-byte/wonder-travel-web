@@ -1,0 +1,38 @@
+{
+  "name": "Wonder Travel Car Rental Services",
+  "tagline": "Drive Zimbabwe. The Wonder way.",
+  "shortDescription": "Self-drive and chauffeur car rentals from Masvingo, available across Zimbabwe.",
+  "address": {
+    "street": "697 Industria Rd, Echo Engineering",
+    "city": "Masvingo",
+    "country": "Zimbabwe",
+    "geo": { "lat": -20.0699, "lng": 30.8276 }
+  },
+  "phones": [
+    {
+      "label": "Main / WhatsApp",
+      "value": "+263772258979",
+      "waLink": "https://wa.me/263772258979",
+      "telLink": "tel:+263772258979",
+      "display": "+263 77 225 8979"
+    }
+  ],
+  "email": "wondertravelw@gmail.com",
+  "social": {
+    "facebook": "https://www.facebook.com/profile.php?id=61552833675920",
+    "twitter": "https://x.com/WonderTravel_zw"
+  },
+  "hours": [
+    { "day": "Mon - Fri", "hours": "08:00 - 17:00" },
+    { "day": "Saturday", "hours": "08:00 - 13:00" },
+    { "day": "Sunday", "hours": "Closed (WhatsApp 24/7)" }
+  ],
+  "pickupLocations": [
+    { "id": "hq",  "label": "Wonder Travel HQ — Masvingo", "feeUSD": 0 },
+    { "id": "rgm", "label": "RGM International Airport, Harare", "feeUSD": 25 },
+    { "id": "byo", "label": "Bulawayo (JM Nkomo Airport)", "feeUSD": 35 },
+    { "id": "vfa", "label": "Victoria Falls Airport", "feeUSD": 45 },
+    { "id": "btb", "label": "Beitbridge border", "feeUSD": 30 },
+    { "id": "other", "label": "Other (we will contact you)", "feeUSD": 0 }
+  ]
+}

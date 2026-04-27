@@ -1,0 +1,23 @@
+[
+  {
+    "id": "t1",
+    "name": "Tendai M.",
+    "city": "London / Masvingo",
+    "quote": "Booked a Fortuner for two weeks driving up to Vic Falls. Picked up clean, returned without a hassle. WhatsApp support actually answered.",
+    "placeholder": true
+  },
+  {
+    "id": "t2",
+    "name": "Rudo S.",
+    "city": "Masvingo",
+    "quote": "Quick weekend rate, paid on EcoCash, drove out to Great Zimbabwe with friends. Will book again.",
+    "placeholder": true
+  },
+  {
+    "id": "t3",
+    "name": "Mark D.",
+    "city": "Harare",
+    "quote": "We use Wonder Travel for our NGO field trips. Reliable fleet, invoiced billing, and they sort the cross-border permits.",
+    "placeholder": true
+  }
+]

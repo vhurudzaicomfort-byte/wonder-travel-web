@@ -1,0 +1,39 @@
+[
+  {
+    "group": "Booking",
+    "items": [
+      { "q": "How far in advance can I book?", "a": "As far as 6 months ahead, or as late as 4 hours before pickup, subject to availability." },
+      { "q": "Can I change my dates after booking?", "a": "Yes, free of charge up to 24 hours before pickup. WhatsApp us with your booking reference." },
+      { "q": "Do I get instant confirmation?", "a": "Yes, for online card and EcoCash payments. Bank-transfer bookings are confirmed within 2 hours after we verify your proof of payment." }
+    ]
+  },
+  {
+    "group": "Payment",
+    "items": [
+      { "q": "Which payments do you accept?", "a": "EcoCash, Paynow, Visa/Mastercard, ZIPIT or bank transfer, and manual proof of payment." },
+      { "q": "Is online payment safe?", "a": "Yes. Card payments are processed by our payment provider and we never see or store your card number." },
+      { "q": "Is a deposit required?", "a": "A refundable security deposit is held at the start of the rental. The amount depends on the vehicle and is refunded on safe return." }
+    ]
+  },
+  {
+    "group": "During the rental",
+    "items": [
+      { "q": "What if I break down?", "a": "Call our 24/7 line on +263 77 225 8979 or WhatsApp us. We will arrange roadside assistance or a replacement vehicle." },
+      { "q": "What is your fuel policy?", "a": "Full-to-full. We hand over a full tank; please return it full. If you cannot, we charge for fuel plus a small refuel fee." },
+      { "q": "What about mileage?", "a": "Most vehicles include unlimited mileage within Zimbabwe. Check the vehicle page for specifics." }
+    ]
+  },
+  {
+    "group": "Insurance",
+    "items": [
+      { "q": "Am I insured?", "a": "Yes, all rentals include comprehensive insurance with an excess. You can reduce the excess by buying optional Excess Reduction at checkout." },
+      { "q": "What if I have an accident?", "a": "Stop, ensure everyone is safe, call the police and us immediately. Do not admit liability at the scene." }
+    ]
+  },
+  {
+    "group": "Cross-border",
+    "items": [
+      { "q": "Can I drive into South Africa, Botswana, Mozambique or Zambia?", "a": "On selected vehicles, yes, with prior arrangement. We will prepare the cross-border permit. Notify us at least 48 hours before pickup." }
+    ]
+  }
+]

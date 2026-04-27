@@ -1,0 +1,10 @@
+[
+  { "id": "child_seat",         "label": "Child seat",        "perDayUSD": 5,  "icon": "users" },
+  { "id": "booster_seat",       "label": "Booster seat",      "perDayUSD": 5,  "icon": "users" },
+  { "id": "gps",                "label": "GPS / navigation",  "perDayUSD": 4,  "icon": "route" },
+  { "id": "additional_driver",  "label": "Additional driver", "perDayUSD": 5,  "icon": "users" },
+  { "id": "airport_delivery",   "label": "Airport delivery",  "oneOffUSD": 25, "icon": "pin" },
+  { "id": "after_hours_pickup", "label": "After-hours pickup","oneOffUSD": 15, "icon": "clock" },
+  { "id": "full_tank_service",  "label": "Full-tank service", "oneOffUSD": 10, "icon": "fuel" },
+  { "id": "roadside_plus",      "label": "Roadside assist+",  "perDayUSD": 6,  "icon": "headset" }
+]
