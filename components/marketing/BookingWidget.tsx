@@ -32,57 +32,74 @@ export function BookingWidget({ compact = false }: { compact?: boolean }) {
   return (
     <form
       onSubmit={submit}
-      className={`bg-white rounded-2xl shadow-lg border border-line p-4 md:p-5 ${compact ? '' : 'animate-fade-up'}`}
+      className={`bg-white rounded-2xl shadow-lg border border-line p-3 sm:p-4 ${compact ? '' : 'animate-fade-up'}`}
       aria-label="Search availability"
     >
-      <div className="grid gap-3 md:grid-cols-5 md:gap-3">
-        <div className="md:col-span-1">
-          <label htmlFor="pickup" className="field-label">Pickup</label>
-          <div className="relative">
-            <Icon name="pin" size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-ink-subtle" />
-            <select id="pickup" className="field-input pl-9" value={pickup} onChange={e => setPickup(e.target.value)}>
-              {business.pickupLocations.map(l => (
-                <option key={l.id} value={l.id}>{l.label}</option>
-              ))}
-            </select>
-          </div>
-        </div>
+      <div className="grid gap-2.5 sm:grid-cols-2 lg:grid-cols-12 lg:gap-2">
+        <Cell className="lg:col-span-3">
+          <Label htmlFor="pickup" icon="pin">Pickup</Label>
+          <select id="pickup" className="bw-control" value={pickup} onChange={e => setPickup(e.target.value)}>
+            {business.pickupLocations.map(l => (
+              <option key={l.id} value={l.id}>{shortLabel(l.label)}</option>
+            ))}
+          </select>
+        </Cell>
 
-        <div className="md:col-span-1">
-          <label htmlFor="dropoff" className="field-label">Drop-off</label>
-          <div className="relative">
-            <Icon name="pin" size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-ink-subtle" />
-            <select id="dropoff" className="field-input pl-9" value={dropoff} onChange={e => setDropoff(e.target.value)}>
-              {business.pickupLocations.map(l => (
-                <option key={l.id} value={l.id}>{l.label}</option>
-              ))}
-            </select>
-          </div>
-        </div>
+        <Cell className="lg:col-span-3">
+          <Label htmlFor="dropoff" icon="pin">Drop-off</Label>
+          <select id="dropoff" className="bw-control" value={dropoff} onChange={e => setDropoff(e.target.value)}>
+            {business.pickupLocations.map(l => (
+              <option key={l.id} value={l.id}>{shortLabel(l.label)}</option>
+            ))}
+          </select>
+        </Cell>
 
-        <div className="md:col-span-1">
-          <label htmlFor="pickupDate" className="field-label">Pickup date</label>
-          <div className="grid grid-cols-2 gap-2">
-            <input id="pickupDate" type="date" className="field-input" value={pickupDate} onChange={e => setPickupDate(e.target.value)} />
-            <input aria-label="Pickup time" type="time" step={1800} className="field-input" value={pickupTime} onChange={e => setPickupTime(e.target.value)} />
+        <Cell className="lg:col-span-2">
+          <Label htmlFor="pickupDate" icon="calendar">Pickup</Label>
+          <div className="grid grid-cols-[1fr_auto] gap-1.5">
+            <input id="pickupDate" type="date" className="bw-control" value={pickupDate} onChange={e => setPickupDate(e.target.value)} />
+            <input aria-label="Pickup time" type="time" step={1800} className="bw-control bw-time" value={pickupTime} onChange={e => setPickupTime(e.target.value)} />
           </div>
-        </div>
+        </Cell>
 
-        <div className="md:col-span-1">
-          <label htmlFor="returnDate" className="field-label">Return date</label>
-          <div className="grid grid-cols-2 gap-2">
-            <input id="returnDate" type="date" className="field-input" value={returnDate} onChange={e => setReturnDate(e.target.value)} />
-            <input aria-label="Return time" type="time" step={1800} className="field-input" value={returnTime} onChange={e => setReturnTime(e.target.value)} />
+        <Cell className="lg:col-span-2">
+          <Label htmlFor="returnDate" icon="calendar">Return</Label>
+          <div className="grid grid-cols-[1fr_auto] gap-1.5">
+            <input id="returnDate" type="date" className="bw-control" value={returnDate} onChange={e => setReturnDate(e.target.value)} />
+            <input aria-label="Return time" type="time" step={1800} className="bw-control bw-time" value={returnTime} onChange={e => setReturnTime(e.target.value)} />
           </div>
-        </div>
+        </Cell>
 
-        <div className="md:col-span-1 flex items-end">
-          <button type="submit" className="btn btn-primary btn-lg w-full">
-            <Icon name="search" size={18} />
-            Search availability
+        <div className="sm:col-span-2 lg:col-span-2 flex items-end">
+          <button type="submit" className="bw-submit">
+            <Icon name="search" size={16} className="shrink-0" />
+            <span className="bw-submit-label">Search</span>
           </button>
         </div>
       </div>
     </form>
   );
+}
+
+function Cell({ className, children }: { className?: string; children: React.ReactNode }) {
+  return (
+    <div className={`rounded-xl bg-surface-2 border border-transparent p-2.5 transition-colors hover:border-line focus-within:border-brand-500 ${className ?? ''}`}>
+      {children}
+    </div>
+  );
+}
+
+function Label({ htmlFor, icon, children }: { htmlFor?: string; icon: 'pin' | 'calendar'; children: React.ReactNode }) {
+  return (
+    <label htmlFor={htmlFor} className="flex items-center gap-1.5 text-[11px] font-medium uppercase tracking-wider text-ink-subtle mb-1">
+      <Icon name={icon} size={13} className="text-brand" />
+      {children}
+    </label>
+  );
+}
+
+function shortLabel(label: string) {
+  if (label.includes('—')) return label.split('—')[0].trim();
+  if (label.includes('(')) return label.split('(')[0].trim();
+  return label;
 }

@@ -135,6 +135,56 @@
     @apply absolute left-2 top-2 z-50 rounded-md bg-brand px-4 py-2 text-sm font-medium text-white opacity-0 -translate-y-12 focus:opacity-100 focus:translate-y-0;
     transition: transform 150ms var(--ease), opacity 150ms var(--ease);
   }
+
+  .bw-control {
+    @apply block w-full bg-transparent border-0 text-sm font-medium text-ink p-0 outline-none focus:ring-0 truncate;
+    height: 24px;
+    line-height: 24px;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  select.bw-control {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M3 4.5l3 3 3-3' fill='none' stroke='%23475569' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-position: right 0 center;
+    background-repeat: no-repeat;
+    background-size: 12px;
+    padding-right: 18px;
+  }
+  .bw-time {
+    width: 78px;
+    flex: none;
+  }
+  .bw-submit {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-brand text-white font-medium w-full transition-colors duration-150 hover:bg-brand-600 active:scale-[0.98];
+    height: 56px;
+    padding: 0 18px;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+  }
+  .bw-submit-label {
+    white-space: nowrap;
+  }
+
+  .zw-label {
+    font-family: var(--font-ubuntu), system-ui, sans-serif;
+    font-size: 2.4px;
+    font-weight: 500;
+    fill: #0F172A;
+    paint-order: stroke;
+    stroke: #fff;
+    stroke-width: 0.6px;
+  }
+  .zw-pulse {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: zw-pulse 2.4s ease-in-out infinite;
+  }
+}
+
+@keyframes zw-pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.5); opacity: 0.4; }
 }
 
 @media (prefers-reduced-motion: reduce) {
