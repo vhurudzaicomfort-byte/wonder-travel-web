@@ -17,11 +17,12 @@ type Props = {
   href?: string;
 };
 
-const DEFAULT_FALLBACK = 'https://images.unsplash.com/photo-1535082623926-b39352a03fb7?auto=format&fit=crop&w=1200&q=80';
+const DEFAULT_FALLBACK = '/images/destinations/great-zimbabwe/great-zimbabwe-cover.jpg';
 
 export function PlaceCard({ image, fallback, title, type, body, badges, highlight, phone, address, href }: Props) {
   const fb = fallback || DEFAULT_FALLBACK;
-  const [src, setSrc] = useState(image && image.startsWith('http') ? image : fb);
+  // Accept any non-empty src — local paths (`/images/...`) and remote (`https://...`).
+  const [src, setSrc] = useState(image || fb);
   const content = (
     <article className={`card group flex h-full flex-col overflow-hidden transition-all duration-200 hover:shadow hover:-translate-y-0.5 ${highlight ? 'ring-1 ring-brand/40' : ''}`}>
       <div className="relative overflow-hidden bg-surface-3" style={{ aspectRatio: '5 / 3' }}>
