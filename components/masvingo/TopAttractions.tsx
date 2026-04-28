@@ -1,4 +1,5 @@
 import { PlaceCard } from './PlaceCard';
+import { destinationImage } from '@/lib/destination-images';
 import type { Destination } from '@/lib/types';
 
 export function TopAttractions({ items }: { items: Destination[] }) {
@@ -12,7 +13,7 @@ export function TopAttractions({ items }: { items: Destination[] }) {
           {items.map(d => (
             <PlaceCard
               key={d.id}
-              image={d.images?.[0]?.url ?? ''}
+              image={destinationImage(d)}
               title={d.name}
               type={d.district}
               body={d.summary}

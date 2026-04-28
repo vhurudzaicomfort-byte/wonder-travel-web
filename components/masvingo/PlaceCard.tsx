@@ -1,8 +1,12 @@
+'use client';
+
+import { useState } from 'react';
 import Link from 'next/link';
 import { Icon } from '@/components/ui/Icon';
 
 type Props = {
   image: string;
+  fallback?: string;
   title: string;
   type?: string;
   body: string;
@@ -13,17 +17,23 @@ type Props = {
   href?: string;
 };
 
-export function PlaceCard({ image, title, type, body, badges, highlight, phone, address, href }: Props) {
+const DEFAULT_FALLBACK = 'https://images.unsplash.com/photo-1535082623926-b39352a03fb7?auto=format&fit=crop&w=1200&q=80';
+
+export function PlaceCard({ image, fallback, title, type, body, badges, highlight, phone, address, href }: Props) {
+  const fb = fallback || DEFAULT_FALLBACK;
+  const [src, setSrc] = useState(image && image.startsWith('http') ? image : fb);
   const content = (
     <article className={`card group flex h-full flex-col overflow-hidden transition-all duration-200 hover:shadow hover:-translate-y-0.5 ${highlight ? 'ring-1 ring-brand/40' : ''}`}>
       <div className="relative overflow-hidden bg-surface-3" style={{ aspectRatio: '5 / 3' }}>
         <img
-          src={image}
+          src={src}
           alt={title}
           loading="lazy"
           width={1000}
           height={600}
           className="h-full w-full object-cover transition-transform duration-400 group-hover:scale-[1.04]"
+          referrerPolicy="no-referrer"
+          onError={() => { if (src !== fb) setSrc(fb); }}
         />
         {highlight && (
           <span className="absolute left-3 top-3 inline-flex items-center gap-1 rounded-full bg-warning/95 px-2.5 py-0.5 text-[11px] font-medium text-white">

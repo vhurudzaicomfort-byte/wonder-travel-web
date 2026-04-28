@@ -12,7 +12,7 @@ export function VehicleListing({ vehicles, presetCategory }: { vehicles: Vehicle
   const [transmissions, setTransmissions] = useState<string[]>([]);
   const [seatsMin, setSeatsMin] = useState<number>(0);
   const [features, setFeatures] = useState<string[]>([]);
-  const [maxPrice, setMaxPrice] = useState<number>(200);
+  const [maxPrice, setMaxPrice] = useState<number>(300);
   const [sort, setSort] = useState<Sort>('recommended');
   const [filtersOpen, setFiltersOpen] = useState(false);
 
@@ -41,7 +41,7 @@ export function VehicleListing({ vehicles, presetCategory }: { vehicles: Vehicle
   const FiltersBody = (
     <>
       <FilterGroup title="Category">
-        {['Sedan', 'SUV', '4x4', 'Van', 'Luxury', 'Budget'].map(c => (
+        {['Class A', 'Class B', 'Class C', 'Off Road Double Cab', 'Off Road Single Cab', 'Mini Bus', 'SUV', 'Luxury', 'Budget', 'Others'].map(c => (
           <Check key={c} label={c} checked={categories.includes(c)} onChange={() => toggle(categories, c, setCategories)} />
         ))}
       </FilterGroup>
@@ -59,7 +59,7 @@ export function VehicleListing({ vehicles, presetCategory }: { vehicles: Vehicle
         <button type="button" className="text-xs text-brand mt-1" onClick={() => setSeatsMin(0)}>Any</button>
       </FilterGroup>
       <FilterGroup title="Max price / day">
-        <input type="range" min={30} max={250} step={5} value={maxPrice} onChange={e => setMaxPrice(Number(e.target.value))} className="w-full accent-brand" />
+        <input type="range" min={35} max={300} step={5} value={maxPrice} onChange={e => setMaxPrice(Number(e.target.value))} className="w-full accent-brand" />
         <p className="mt-1 text-sm tabular">Up to <span className="font-medium">USD {maxPrice}</span></p>
       </FilterGroup>
       <FilterGroup title="Features">
@@ -70,7 +70,7 @@ export function VehicleListing({ vehicles, presetCategory }: { vehicles: Vehicle
       <button
         type="button"
         className="btn btn-ghost btn-sm w-full mt-2"
-        onClick={() => { setCategories([]); setTransmissions([]); setSeatsMin(0); setFeatures([]); setMaxPrice(200); }}
+        onClick={() => { setCategories([]); setTransmissions([]); setSeatsMin(0); setFeatures([]); setMaxPrice(300); }}
       >
         Reset filters
       </button>

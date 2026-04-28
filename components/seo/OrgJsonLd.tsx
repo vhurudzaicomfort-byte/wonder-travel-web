@@ -6,7 +6,7 @@ export function OrgJsonLd() {
     '@context': 'https://schema.org',
     '@type': 'CarRental',
     name: b.name,
-    url: 'https://wondertravel.co.zw',
+    url: 'https://wondertravel.vercel.app',
     telephone: b.phones[0].value,
     email: b.email,
     address: {

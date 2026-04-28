@@ -9,12 +9,13 @@ import { MobileDrawer } from './MobileDrawer';
 import { getBusiness } from '@/lib/api';
 
 const NAV = [
-  { href: '/vehicles', label: 'Vehicles' },
-  { href: '/services', label: 'Services' },
-  { href: '/about', label: 'About' },
-  { href: '/faq', label: 'Help' },
-  { href: '/contact', label: 'Contact' },
-  { href: '/visit-masvingo', label: 'Visit Masvingo' }
+  { href: '/vehicles',       label: 'Vehicles' },
+  { href: '/services',       label: 'Services' },
+  { href: '/about',          label: 'About' },
+  { href: '/faq',            label: 'Help' },
+  { href: '/contact',        label: 'Contact' },
+  { href: '/visit-masvingo', label: 'Visit Masvingo' },
+  { href: '/emergency',      label: 'Emergency' }
 ];
 
 export function Header() {
@@ -45,7 +46,7 @@ export function Header() {
             <Logo variant="full" height={44} className="hidden sm:block" />
             <Logo variant="mark" height={36} className="sm:hidden" />
           </Link>
-          <nav aria-label="Primary" className="hidden lg:flex items-center gap-6 text-sm font-medium text-ink">
+          <nav aria-label="Primary" className="hidden lg:flex items-center gap-4 xl:gap-6 text-sm font-medium text-ink">
             {NAV.map(item => (
               <Link
                 key={item.href}

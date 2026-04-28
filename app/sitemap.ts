@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 import { getVehicles, getServices, CATEGORIES } from '@/lib/api';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = 'https://wondertravel.co.zw';
+  const base = 'https://wondertravel.vercel.app';
   const today = new Date();
 
   const staticRoutes = ['/', '/vehicles', '/services', '/about', '/contact', '/faq', '/terms', '/privacy', '/cancellation', '/visit-masvingo', '/emergency'].map(path => ({

@@ -9,6 +9,22 @@ export function Footer() {
 
   return (
     <footer className="bg-surface-dark text-white mt-24">
+      <div className="border-b border-white/10">
+        <div className="container-x py-8 md:py-10 grid gap-5 md:grid-cols-[1fr_auto] items-center">
+          <div>
+            <p className="text-[11px] font-medium uppercase tracking-[0.12em] text-brand-50">Earn extra income</p>
+            <h2 className="mt-2 text-2xl md:text-3xl font-bold">Rent out your car through us.</h2>
+            <p className="mt-2 text-sm md:text-base text-white/70 max-w-prose">We handle marketing, bookings, payments and insurance. You earn a share. Onboard your vehicle in minutes.</p>
+          </div>
+          <Link
+            href="/partners/list-your-vehicle"
+            className="inline-flex items-center gap-2 rounded-xl border-2 border-white/30 bg-white/5 px-6 py-3 text-sm md:text-base font-medium text-white hover:bg-white/15 hover:border-white/60 transition-colors whitespace-nowrap"
+          >
+            <Icon name="upload" size={18} />
+            Rent out your car
+          </Link>
+        </div>
+      </div>
       <div className="container-x py-14 md:py-20 grid gap-10 md:grid-cols-4">
         <div className="md:col-span-1">
           <Logo variant="full-dark" height={56} />

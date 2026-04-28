@@ -21,7 +21,7 @@ const ubuntuMono = Ubuntu_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://wondertravel.co.zw'),
+  metadataBase: new URL('https://wondertravel.vercel.app'),
   title: {
     default: 'Car Rental in Masvingo & Zimbabwe | Wonder Travel',
     template: '%s | Wonder Travel Car Rental'

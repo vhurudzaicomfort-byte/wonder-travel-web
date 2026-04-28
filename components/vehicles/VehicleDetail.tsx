@@ -27,6 +27,7 @@ export function VehicleDetail({ v }: { v: Vehicle }) {
               width={1600}
               height={1000}
               className="h-full w-full object-cover"
+              onError={e => { (e.currentTarget as HTMLImageElement).src = 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=80'; }}
             />
           </div>
           {gallery.length > 1 && (
@@ -45,6 +46,7 @@ export function VehicleDetail({ v }: { v: Vehicle }) {
           )}
 
           <h1 className="mt-6 text-3xl md:text-4xl font-bold">{v.year} {v.make} {v.model}</h1>
+          {v.descriptor && <p className="mt-1 text-base font-medium text-brand">{v.descriptor}</p>}
           <div className="mt-3 flex flex-wrap gap-2 text-sm">
             <span className="pill">{v.category}</span>
             <span className="pill">{v.transmission === 'automatic' ? 'Automatic' : 'Manual'}</span>
@@ -101,7 +103,10 @@ export function VehicleDetail({ v }: { v: Vehicle }) {
                 <li>Valid driver&apos;s licence held for at least <strong>2 years</strong></li>
                 <li>National ID or passport</li>
                 <li>Refundable deposit: <strong className="tabular">{formatUSD(v.depositUSD)}</strong> held at pickup</li>
-                <li>Mileage policy: <strong>{v.mileagePolicy === 'unlimited' ? 'Unlimited' : 'Limited (see terms)'}</strong></li>
+                <li>
+                  Free mileage: <strong>{v.freeKmPerDay ?? 250} km / day</strong>.{' '}
+                  Extra mileage: <strong className="tabular">${v.extraKmUSD ?? 1} / km</strong>.
+                </li>
               </ul>
             )}
             {tab === 'Cancellation' && (
@@ -123,6 +128,7 @@ export function VehicleDetail({ v }: { v: Vehicle }) {
             <ul className="mt-5 space-y-2 text-sm text-ink-muted">
               <li className="inline-flex items-center gap-2"><Icon name="check" size={16} className="text-success" />Free cancellation up to 24h before pickup</li>
               <li className="inline-flex items-center gap-2"><Icon name="check" size={16} className="text-success" />Comprehensive insurance included</li>
+              <li className="inline-flex items-center gap-2"><Icon name="route" size={16} className="text-brand" />{v.freeKmPerDay ?? 250} km/day included &middot; ${v.extraKmUSD ?? 1}/km after</li>
               <li className="inline-flex items-center gap-2"><Icon name="check" size={16} className="text-success" />Refundable deposit {formatUSD(v.depositUSD)}</li>
             </ul>
 

@@ -66,7 +66,25 @@ export function getTestimonials(): Testimonial[] {
   return testimonialsData as Testimonial[];
 }
 
-export const CATEGORIES = ['Sedan', 'SUV', '4x4', 'Van', 'Luxury', 'Budget'] as const;
+export const CATEGORIES = [
+  'Class A',
+  'Class B',
+  'Class C',
+  'Off Road Double Cab',
+  'Off Road Single Cab',
+  'Mini Bus',
+  'SUV',
+  'Luxury',
+  'Budget',
+  'Others'
+] as const;
+
+export function categorySlug(c: string) {
+  return c.toLowerCase().replace(/\s+/g, '-');
+}
+export function categoryFromSlug(slug: string): string | undefined {
+  return (CATEGORIES as readonly string[]).find(c => categorySlug(c) === slug.toLowerCase());
+}
 
 export function getDestinations(): Destination[] {
   return ((destinationsData as { destinations: Destination[] }).destinations) as Destination[];

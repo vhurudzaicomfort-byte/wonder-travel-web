@@ -2,14 +2,14 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 import { VehicleListing } from '@/components/vehicles/VehicleListing';
-import { getVehicles, CATEGORIES } from '@/lib/api';
+import { getVehicles, CATEGORIES, categorySlug, categoryFromSlug } from '@/lib/api';
 
 export function generateStaticParams() {
-  return CATEGORIES.map(c => ({ category: c.toLowerCase() }));
+  return CATEGORIES.map(c => ({ category: categorySlug(c) }));
 }
 
 export async function generateMetadata({ params }: { params: { category: string } }): Promise<Metadata> {
-  const cat = CATEGORIES.find(c => c.toLowerCase() === params.category);
+  const cat = categoryFromSlug(params.category);
   if (!cat) return { title: 'Vehicles' };
   return {
     title: `${cat} hire in Zimbabwe`,
@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: { category: string 
 }
 
 export default function CategoryPage({ params }: { params: { category: string } }) {
-  const cat = CATEGORIES.find(c => c.toLowerCase() === params.category);
+  const cat = categoryFromSlug(params.category);
   if (!cat) notFound();
   const vehicles = getVehicles().filter(v => v.category === cat);
   return (

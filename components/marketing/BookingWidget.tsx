@@ -35,8 +35,8 @@ export function BookingWidget({ compact = false }: { compact?: boolean }) {
       className={`bg-white rounded-2xl shadow-lg border border-line p-3 sm:p-4 ${compact ? '' : 'animate-fade-up'}`}
       aria-label="Search availability"
     >
-      <div className="grid gap-2.5 sm:grid-cols-2 lg:grid-cols-12 lg:gap-2">
-        <Cell className="lg:col-span-3">
+      <div className="grid gap-2.5 sm:grid-cols-2 xl:grid-cols-4 xl:gap-2">
+        <Cell>
           <Label htmlFor="pickup" icon="pin">Pickup</Label>
           <select id="pickup" className="bw-control" value={pickup} onChange={e => setPickup(e.target.value)}>
             {business.pickupLocations.map(l => (
@@ -45,7 +45,7 @@ export function BookingWidget({ compact = false }: { compact?: boolean }) {
           </select>
         </Cell>
 
-        <Cell className="lg:col-span-3">
+        <Cell>
           <Label htmlFor="dropoff" icon="pin">Drop-off</Label>
           <select id="dropoff" className="bw-control" value={dropoff} onChange={e => setDropoff(e.target.value)}>
             {business.pickupLocations.map(l => (
@@ -54,7 +54,7 @@ export function BookingWidget({ compact = false }: { compact?: boolean }) {
           </select>
         </Cell>
 
-        <Cell className="lg:col-span-2">
+        <Cell>
           <Label htmlFor="pickupDate" icon="calendar">Pickup</Label>
           <div className="grid grid-cols-[1fr_auto] gap-1.5">
             <input id="pickupDate" type="date" className="bw-control" value={pickupDate} onChange={e => setPickupDate(e.target.value)} />
@@ -62,28 +62,26 @@ export function BookingWidget({ compact = false }: { compact?: boolean }) {
           </div>
         </Cell>
 
-        <Cell className="lg:col-span-2">
+        <Cell>
           <Label htmlFor="returnDate" icon="calendar">Return</Label>
           <div className="grid grid-cols-[1fr_auto] gap-1.5">
             <input id="returnDate" type="date" className="bw-control" value={returnDate} onChange={e => setReturnDate(e.target.value)} />
             <input aria-label="Return time" type="time" step={1800} className="bw-control bw-time" value={returnTime} onChange={e => setReturnTime(e.target.value)} />
           </div>
         </Cell>
-
-        <div className="sm:col-span-2 lg:col-span-2 flex items-end">
-          <button type="submit" className="bw-submit">
-            <Icon name="search" size={16} className="shrink-0" />
-            <span className="bw-submit-label">Search</span>
-          </button>
-        </div>
       </div>
+
+      <button type="submit" className="bw-submit mt-3">
+        <Icon name="search" size={18} className="shrink-0" />
+        <span className="bw-submit-label">Search availability</span>
+      </button>
     </form>
   );
 }
 
-function Cell({ className, children }: { className?: string; children: React.ReactNode }) {
+function Cell({ children }: { children: React.ReactNode }) {
   return (
-    <div className={`rounded-xl bg-surface-2 border border-transparent p-2.5 transition-colors hover:border-line focus-within:border-brand-500 ${className ?? ''}`}>
+    <div className="rounded-xl bg-surface-2 border border-transparent p-2.5 transition-colors hover:border-line focus-within:border-brand-500">
       {children}
     </div>
   );

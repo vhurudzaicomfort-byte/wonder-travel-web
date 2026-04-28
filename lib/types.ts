@@ -1,4 +1,14 @@
-export type VehicleCategory = 'Sedan' | 'SUV' | '4x4' | 'Van' | 'Luxury' | 'Budget';
+export type VehicleCategory =
+  | 'Class A'
+  | 'Class B'
+  | 'Class C'
+  | 'Off Road Double Cab'
+  | 'Off Road Single Cab'
+  | 'Mini Bus'
+  | 'SUV'
+  | 'Luxury'
+  | 'Budget'
+  | 'Others';
 
 export type Vehicle = {
   id: string;
@@ -7,6 +17,7 @@ export type Vehicle = {
   model: string;
   year: number;
   category: VehicleCategory;
+  descriptor?: string;
   transmission: 'automatic' | 'manual';
   fuel: 'petrol' | 'diesel' | 'hybrid' | 'electric';
   seats: number;
@@ -17,6 +28,8 @@ export type Vehicle = {
   fourWheelDrive: boolean;
   crossBorderAllowed: boolean;
   mileagePolicy: 'unlimited' | 'limited';
+  freeKmPerDay?: number;
+  extraKmUSD?: number;
   minDriverAge: number;
   rates: { perDayUSD: number; perWeekUSD: number; perMonthUSD: number };
   depositUSD: number;

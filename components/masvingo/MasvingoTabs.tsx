@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react';
 import { Icon } from '@/components/ui/Icon';
 import { PlaceCard } from './PlaceCard';
+import { destinationImage } from '@/lib/destination-images';
 import type { Destination, Stay, ChillSpot, Activity } from '@/lib/types';
 
 type Tab = 'attractions' | 'stay' | 'eat' | 'do';
@@ -126,7 +127,7 @@ function AttractionsGrid({ items }: { items: Destination[] }) {
       {items.map(d => (
         <PlaceCard
           key={d.id}
-          image={d.images?.[0]?.url ?? 'https://images.unsplash.com/photo-1535082623926-b39352a03fb7?auto=format&fit=crop&w=1200&q=80'}
+          image={destinationImage(d)}
           title={d.name}
           type={d.district}
           body={d.summary}
