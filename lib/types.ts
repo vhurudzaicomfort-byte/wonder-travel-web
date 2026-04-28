@@ -60,7 +60,7 @@ export type Business = {
   address: { street: string; city: string; country: string; geo: { lat: number; lng: number } };
   phones: { label: string; value: string; waLink: string; telLink: string; display: string }[];
   email: string;
-  social: { facebook: string; twitter: string };
+  social: { facebook: string; twitter: string; instagram?: string };
   hours: { day: string; hours: string }[];
   pickupLocations: PickupLocation[];
 };
