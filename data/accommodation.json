@@ -8,7 +8,7 @@
     "address": "Off Mutare-Beitbridge Rd, Great Zimbabwe",
     "phone": "+263 39 226 2274",
     "email": "reservations@gzim.africansun.co.zw",
-    "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1400&q=80",
+    "image": "/images/lodges/great-zimbabwe-hotel.jpg",
     "tags": ["pool", "restaurant", "conference", "near-ruins"],
     "highlight": true
   },
@@ -20,7 +20,7 @@
     "summary": "Boutique stone-and-thatch lodge inside the Great Zimbabwe estate. Lake views, private terraces.",
     "address": "Great Zimbabwe National Monument estate",
     "phone": "+263 77 456 6361",
-    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1400&q=80",
+    "image": "/images/lodges/lodge-at-the-ancient-city.jpg",
     "tags": ["boutique", "lake-view", "near-ruins"],
     "highlight": true
   },
@@ -32,7 +32,7 @@
     "summary": "Long-standing Masvingo town hotel with conference facilities, pool, and a popular bar.",
     "address": "Robertson St, Masvingo CBD",
     "phone": "+263 77 404 5456",
-    "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1400&q=80",
+    "image": "/images/lodges/regency-flamboyant.jpg",
     "tags": ["pool", "bar", "conference", "town-centre"]
   },
   {
@@ -42,7 +42,7 @@
     "summary": "Town-centre business hotel with restaurant and lounge.",
     "address": "Robert Mugabe St, Masvingo",
     "phone": "+263 77 404 5448",
-    "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1400&q=80",
+    "image": "/images/lodges/chevron-hotel.jpg",
     "tags": ["business", "town-centre"]
   },
   {
@@ -65,7 +65,7 @@
     "address": "Bannockburn Farm Extension, Masvingo",
     "phone": "+263 71 981 6713",
     "email": "hippocreeklodge@gmail.com",
-    "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1400&q=80",
+    "image": "/images/lodges/hippo-creek-resort.jpg",
     "tags": ["lake", "boating", "weekend"]
   },
   {
@@ -189,7 +189,7 @@
     "type": "Lodge",
     "summary": "Bush retreat with mountain views. Hiking, birding, sundowner deck.",
     "phone": "+263 77 446 7473",
-    "image": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1400&q=80",
+    "image": "/images/lodges/nyuni-mountain.jpg",
     "tags": ["bush", "hiking", "birding"]
   },
   {

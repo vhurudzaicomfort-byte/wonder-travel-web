@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 import { VisitMasvingoHero } from '@/components/masvingo/VisitMasvingoHero';
 import { TopAttractions } from '@/components/masvingo/TopAttractions';
+import { GreatZimbabweShowcase } from '@/components/masvingo/GreatZimbabweShowcase';
 import { MasvingoTabs } from '@/components/masvingo/MasvingoTabs';
 import { CrossSell } from '@/components/masvingo/CrossSell';
 import { Icon } from '@/components/ui/Icon';
@@ -30,6 +31,7 @@ export default function VisitMasvingoPage() {
         <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Visit Masvingo' }]} />
       </div>
       <VisitMasvingoHero />
+      <GreatZimbabweShowcase />
       <TopAttractions items={top} />
 
       <div id="explore" />

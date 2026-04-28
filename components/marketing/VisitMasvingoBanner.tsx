@@ -8,7 +8,7 @@ export function VisitMasvingoBanner() {
         <div className="relative overflow-hidden rounded-3xl">
           <div
             className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: "url('https://images.unsplash.com/photo-1535082623926-b39352a03fb7?auto=format&fit=crop&w=2000&q=80')" }}
+            style={{ backgroundImage: "url('/images/hero/visit-masvingo-banner.jpg')" }}
             aria-hidden="true"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-ink/85 via-ink/65 to-ink/45" aria-hidden="true" />

@@ -6,7 +6,7 @@ export function VisitMasvingoHero() {
     <section className="relative isolate overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1535082623926-b39352a03fb7?auto=format&fit=crop&w=2400&q=80')" }}
+        style={{ backgroundImage: "url('/images/hero/visit-masvingo-hero.jpg')" }}
         aria-hidden="true"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-ink/60 via-ink/45 to-ink/75" aria-hidden="true" />
