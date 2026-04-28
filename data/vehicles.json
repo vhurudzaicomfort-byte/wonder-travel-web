@@ -19,14 +19,20 @@
     "minDriverAge": 25,
     "rates": { "perDayUSD": 95, "perWeekUSD": 600, "perMonthUSD": 2200 },
     "depositUSD": 200,
-    "images": { "cover": "/images/vehicles/placeholder-suv-1.svg", "gallery": ["/images/vehicles/placeholder-suv-1.svg"] },
+    "images": {
+      "cover": "https://images.unsplash.com/photo-1709620435533-56483034bdd4?auto=format&fit=crop&w=1600&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1709620435533-56483034bdd4?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1638835373951-3a67da7aaf8d?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1547245324-d777c6f05e80?auto=format&fit=crop&w=1600&q=80"
+      ]
+    },
     "features": ["AC", "Bluetooth", "ABS", "Reverse camera", "USB", "Cruise control"],
     "available": true,
     "rating": 4.9,
     "reviewCount": 28,
     "shortDescription": "Built for Zimbabwean roads. Family-friendly, safari-capable.",
-    "longDescription": "The Toyota Fortuner is our most popular 4x4 — built for Zimbabwean roads, comfortable on tar, capable on gravel. Ideal for families, safari trips into Gonarezhou, and cross-border travel into South Africa, Botswana and Mozambique.",
-    "placeholder": true
+    "longDescription": "The Toyota Fortuner is our most popular 4x4 — built for Zimbabwean roads, comfortable on tar, capable on gravel. Ideal for families, safari trips into Gonarezhou, and cross-border travel into South Africa, Botswana and Mozambique."
   },
   {
     "id": "vh_corolla_2019_01",
@@ -48,14 +54,20 @@
     "minDriverAge": 23,
     "rates": { "perDayUSD": 55, "perWeekUSD": 340, "perMonthUSD": 1200 },
     "depositUSD": 150,
-    "images": { "cover": "/images/vehicles/placeholder-sedan-1.svg", "gallery": ["/images/vehicles/placeholder-sedan-1.svg"] },
+    "images": {
+      "cover": "https://images.unsplash.com/photo-1638618164682-12b986ec2a75?auto=format&fit=crop&w=1600&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1638618164682-12b986ec2a75?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1623869675781-80aa31012a5a?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1626072557464-90403d788e8d?auto=format&fit=crop&w=1600&q=80"
+      ]
+    },
     "features": ["AC", "Bluetooth", "ABS", "USB"],
     "available": true,
     "rating": 4.7,
     "reviewCount": 34,
     "shortDescription": "Smooth, fuel-efficient, easy to park in town.",
-    "longDescription": "A reliable, fuel-efficient sedan that handles long highway runs and tight Masvingo town traffic with equal ease.",
-    "placeholder": true
+    "longDescription": "A reliable, fuel-efficient sedan that handles long highway runs and tight Masvingo town traffic with equal ease."
   },
   {
     "id": "vh_hilux_2021_01",
@@ -77,14 +89,20 @@
     "minDriverAge": 25,
     "rates": { "perDayUSD": 85, "perWeekUSD": 540, "perMonthUSD": 2000 },
     "depositUSD": 200,
-    "images": { "cover": "/images/vehicles/placeholder-pickup-1.svg", "gallery": ["/images/vehicles/placeholder-pickup-1.svg"] },
+    "images": {
+      "cover": "https://images.unsplash.com/photo-1551830820-330a71b99659?auto=format&fit=crop&w=1600&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1551830820-330a71b99659?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1649793395985-967862a3b73f?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&w=1600&q=80"
+      ]
+    },
     "features": ["AC", "Bluetooth", "Tow bar", "Bull bar", "USB"],
     "available": true,
     "rating": 4.8,
     "reviewCount": 19,
     "shortDescription": "Workhorse. Goes anywhere, hauls anything.",
-    "longDescription": "The Hilux Double Cab is our go-to for project teams, NGO field work, and gravel-road adventures. Manual gearbox for full control.",
-    "placeholder": true
+    "longDescription": "The Hilux Double Cab is our go-to for project teams, NGO field work, and gravel-road adventures. Manual gearbox for full control."
   },
   {
     "id": "vh_quantum_2018_01",
@@ -106,14 +124,19 @@
     "minDriverAge": 28,
     "rates": { "perDayUSD": 110, "perWeekUSD": 700, "perMonthUSD": 2600 },
     "depositUSD": 250,
-    "images": { "cover": "/images/vehicles/placeholder-van-1.svg", "gallery": ["/images/vehicles/placeholder-van-1.svg"] },
+    "images": {
+      "cover": "https://images.unsplash.com/photo-1675311183084-755007dbb223?auto=format&fit=crop&w=1600&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1675311183084-755007dbb223?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1649553324097-dec0c232be42?auto=format&fit=crop&w=1600&q=80"
+      ]
+    },
     "features": ["AC", "14 seats", "USB", "Roof carrier"],
     "available": true,
     "rating": 4.6,
     "reviewCount": 12,
     "shortDescription": "Group transfers, tours, and corporate runs.",
-    "longDescription": "Comfortable 14-seater for Great Zimbabwe day-tours, airport runs, and corporate group transfers. Chauffeur option available.",
-    "placeholder": true
+    "longDescription": "Comfortable 14-seater for Great Zimbabwe day-tours, airport runs, and corporate group transfers. Chauffeur option available."
   },
   {
     "id": "vh_mercedes_eclass_2020_01",
@@ -135,14 +158,19 @@
     "minDriverAge": 28,
     "rates": { "perDayUSD": 180, "perWeekUSD": 1100, "perMonthUSD": 4000 },
     "depositUSD": 400,
-    "images": { "cover": "/images/vehicles/placeholder-luxury-1.svg", "gallery": ["/images/vehicles/placeholder-luxury-1.svg"] },
+    "images": {
+      "cover": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1600&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?auto=format&fit=crop&w=1600&q=80"
+      ]
+    },
     "features": ["AC", "Bluetooth", "Leather", "Sunroof", "Premium audio"],
     "available": true,
     "rating": 5.0,
     "reviewCount": 9,
     "shortDescription": "Weddings, executive transfers, statement journeys.",
-    "longDescription": "The E-Class is reserved for weddings, executive corporate transfers, and special occasions. Chauffeur strongly recommended.",
-    "placeholder": true
+    "longDescription": "The E-Class is reserved for weddings, executive corporate transfers, and special occasions. Chauffeur strongly recommended."
   },
   {
     "id": "vh_mazda_demio_2017_01",
@@ -164,14 +192,19 @@
     "minDriverAge": 23,
     "rates": { "perDayUSD": 38, "perWeekUSD": 240, "perMonthUSD": 850 },
     "depositUSD": 100,
-    "images": { "cover": "/images/vehicles/placeholder-compact-1.svg", "gallery": ["/images/vehicles/placeholder-compact-1.svg"] },
+    "images": {
+      "cover": "https://images.unsplash.com/photo-1582639510494-c80b5de9f148?auto=format&fit=crop&w=1600&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1582639510494-c80b5de9f148?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1471444928139-48c5bf5173f8?auto=format&fit=crop&w=1600&q=80"
+      ]
+    },
     "features": ["AC", "USB", "Power steering"],
     "available": true,
     "rating": 4.5,
     "reviewCount": 41,
     "shortDescription": "Cheap, cheerful, sips fuel.",
-    "longDescription": "Our budget pick. Compact, easy to drive, and easy on the fuel tank — perfect for solo travellers and short city stays.",
-    "placeholder": true
+    "longDescription": "Our budget pick. Compact, easy to drive, and easy on the fuel tank — perfect for solo travellers and short city stays."
   },
   {
     "id": "vh_landcruiser_2019_01",
@@ -193,14 +226,19 @@
     "minDriverAge": 28,
     "rates": { "perDayUSD": 150, "perWeekUSD": 950, "perMonthUSD": 3400 },
     "depositUSD": 350,
-    "images": { "cover": "/images/vehicles/placeholder-suv-2.svg", "gallery": ["/images/vehicles/placeholder-suv-2.svg"] },
+    "images": {
+      "cover": "https://images.unsplash.com/photo-1650530579355-7ad9d4766043?auto=format&fit=crop&w=1600&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1650530579355-7ad9d4766043?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1638835373951-3a67da7aaf8d?auto=format&fit=crop&w=1600&q=80"
+      ]
+    },
     "features": ["AC", "Bluetooth", "Roof rack", "Snorkel", "Dual battery", "USB"],
     "available": true,
     "rating": 4.9,
     "reviewCount": 16,
     "shortDescription": "The serious safari rig.",
-    "longDescription": "Built for Gonarezhou, Mana Pools, and any track that ends in mud. Long-range tank, dual battery, full overland kit available.",
-    "placeholder": true
+    "longDescription": "Built for Gonarezhou, Mana Pools, and any track that ends in mud. Long-range tank, dual battery, full overland kit available."
   },
   {
     "id": "vh_nissan_xtrail_2018_01",
@@ -222,13 +260,18 @@
     "minDriverAge": 23,
     "rates": { "perDayUSD": 70, "perWeekUSD": 440, "perMonthUSD": 1600 },
     "depositUSD": 180,
-    "images": { "cover": "/images/vehicles/placeholder-suv-3.svg", "gallery": ["/images/vehicles/placeholder-suv-3.svg"] },
+    "images": {
+      "cover": "https://images.unsplash.com/photo-1547245324-d777c6f05e80?auto=format&fit=crop&w=1600&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1547245324-d777c6f05e80?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1621773949475-d249b22cd1fc?auto=format&fit=crop&w=1600&q=80"
+      ]
+    },
     "features": ["AC", "Bluetooth", "Reverse camera", "USB"],
     "available": true,
     "rating": 4.7,
     "reviewCount": 22,
     "shortDescription": "Comfortable family SUV with cargo space.",
-    "longDescription": "A balanced SUV — taller ride than a sedan, friendlier on fuel than a 4x4. Great for family weekend trips and Highway A4 runs.",
-    "placeholder": true
+    "longDescription": "A balanced SUV — taller ride than a sedan, friendlier on fuel than a 4x4. Great for family weekend trips and Highway A4 runs."
   }
 ]

@@ -6,7 +6,7 @@ export function Hero() {
     <section className="relative isolate overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/images/hero/masvingo-road.svg')" }}
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1642086069849-2514084e9986?auto=format&fit=crop&w=2400&q=80')" }}
         aria-hidden="true"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-ink/55 via-ink/40 to-ink/70" aria-hidden="true" />
