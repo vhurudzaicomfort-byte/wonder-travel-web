@@ -45,6 +45,7 @@ export function Footer() {
             <li><Link href="/vehicles" className="hover:text-white">Vehicles</Link></li>
             <li><Link href="/services" className="hover:text-white">Services</Link></li>
             <li><Link href="/visit-masvingo" className="hover:text-white">Visit Masvingo</Link></li>
+            <li><Link href="/opportunities" className="hover:text-white">Opportunities</Link></li>
             <li><Link href="/emergency" className="hover:text-white">Emergency services</Link></li>
             <li><Link href="/about" className="hover:text-white">About us</Link></li>
             <li><Link href="/faq" className="hover:text-white">FAQ</Link></li>

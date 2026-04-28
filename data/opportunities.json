@@ -1,0 +1,122 @@
+{
+  "categories": [
+    {
+      "id": "jobs",
+      "label": "Job listings",
+      "blurb": "Drivers, receptionists, mechanics, general hands & admin roles in Masvingo.",
+      "icon": "users",
+      "accent": "#1F6FEB"
+    },
+    {
+      "id": "services",
+      "label": "Third-party services",
+      "blurb": "Car wash, panel beating, tracking, security, accessories, advertising and more.",
+      "icon": "gear",
+      "accent": "#0F8D5A"
+    },
+    {
+      "id": "vehicles",
+      "label": "Vehicle sales",
+      "blurb": "Cars for sale and fleet disposals — direct from Wonder Travel and partner sellers.",
+      "icon": "car",
+      "accent": "#C9410B"
+    },
+    {
+      "id": "refer",
+      "label": "Refer & earn",
+      "blurb": "Refer 10 hiring clients and get one day FREE on your next rental.",
+      "icon": "crown",
+      "accent": "#7A2BC0"
+    }
+  ],
+  "listings": [
+    {
+      "id": "op-1",
+      "category": "jobs",
+      "title": "Class 4 driver — chauffeur fleet",
+      "company": "Wonder Travel Car Rental",
+      "location": "Masvingo CBD",
+      "description": "Experienced Class 4 driver needed for our chauffeur self-drive fleet. Clean record required. Full-time, USD pay, 6-day roster.",
+      "phone": "+263 78 244 9197",
+      "email": "hr@wondertravel.zw",
+      "postedAt": "2026-04-25"
+    },
+    {
+      "id": "op-2",
+      "category": "jobs",
+      "title": "Front-desk receptionist",
+      "company": "Wonder Travel Car Rental",
+      "location": "Masvingo Office",
+      "description": "Bookings, walk-ins, customer care. Must be fluent in English & Shona, comfortable on POS and basic spreadsheets.",
+      "phone": "+263 78 244 9197",
+      "email": "hr@wondertravel.zw",
+      "postedAt": "2026-04-22"
+    },
+    {
+      "id": "op-3",
+      "category": "services",
+      "title": "Premium car wash & valeting",
+      "company": "Sparkle Auto Care",
+      "location": "Robert Mugabe Way, Masvingo",
+      "description": "Hand-wash, full valet, engine bay clean, paint correction. Fleet rates available for businesses.",
+      "phone": "+263 77 200 0001",
+      "email": "sparkle@example.zw",
+      "postedAt": "2026-04-20"
+    },
+    {
+      "id": "op-4",
+      "category": "services",
+      "title": "Vehicle tracking & recovery",
+      "company": "TrackZim",
+      "location": "Servicing all of Masvingo Province",
+      "description": "Real-time GPS tracking, geofencing, recovery support. Plans from USD 8/month per vehicle.",
+      "phone": "+263 77 200 0002",
+      "email": "info@trackzim.example",
+      "postedAt": "2026-04-18"
+    },
+    {
+      "id": "op-5",
+      "category": "services",
+      "title": "Panel beating & spray painting",
+      "company": "Masvingo Auto Body",
+      "location": "Industrial sites, Masvingo",
+      "description": "Insurance-approved panel work, dent repair, full colour match. 10+ years experience.",
+      "phone": "+263 77 200 0003",
+      "email": "autobody@example.zw",
+      "postedAt": "2026-04-15"
+    },
+    {
+      "id": "op-6",
+      "category": "vehicles",
+      "title": "Toyota Hilux 2018 — fleet disposal",
+      "company": "Wonder Travel Car Rental",
+      "location": "Masvingo",
+      "description": "Single cab, manual, 4x4. 165,000km full service history. USD 16,500 ono. Clean papers.",
+      "phone": "+263 78 244 9197",
+      "email": "sales@wondertravel.zw",
+      "postedAt": "2026-04-10"
+    },
+    {
+      "id": "op-7",
+      "category": "vehicles",
+      "title": "Honda Fit 2014 — bargain runabout",
+      "company": "Private seller (verified)",
+      "location": "Masvingo",
+      "description": "1.3L petrol, automatic, 145,000km. Fuel-efficient city car. USD 4,800 negotiable.",
+      "phone": "+263 77 200 0004",
+      "email": "seller@example.zw",
+      "postedAt": "2026-04-08"
+    },
+    {
+      "id": "op-8",
+      "category": "refer",
+      "title": "Refer 10 hiring clients — get 1 day FREE",
+      "company": "Wonder Travel Car Rental",
+      "location": "Open to all",
+      "description": "Send us 10 paying rental clients (verified bookings) and we credit you ONE day FREE on any vehicle in our fleet. Stackable up to 5 days.",
+      "phone": "+263 78 244 9197",
+      "email": "refer@wondertravel.zw",
+      "postedAt": "2026-04-01"
+    }
+  ]
+}
