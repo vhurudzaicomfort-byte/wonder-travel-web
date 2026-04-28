@@ -13,7 +13,8 @@ const NAV = [
   { href: '/services', label: 'Services' },
   { href: '/about', label: 'About' },
   { href: '/faq', label: 'Help' },
-  { href: '/contact', label: 'Contact' }
+  { href: '/contact', label: 'Contact' },
+  { href: '/visit-masvingo', label: 'Visit Masvingo' }
 ];
 
 export function Header() {
@@ -44,12 +45,12 @@ export function Header() {
             <Logo variant="full" height={44} className="hidden sm:block" />
             <Logo variant="mark" height={36} className="sm:hidden" />
           </Link>
-          <nav aria-label="Primary" className="hidden lg:flex items-center gap-7 text-sm font-medium text-ink">
+          <nav aria-label="Primary" className="hidden lg:flex items-center gap-6 text-sm font-medium text-ink">
             {NAV.map(item => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="hover:text-brand transition-colors"
+                className="whitespace-nowrap hover:text-brand transition-colors"
               >
                 {item.label}
               </Link>
@@ -58,7 +59,7 @@ export function Header() {
           <div className="flex items-center gap-2">
             <a
               href={phone.telLink}
-              className="hidden md:inline-flex items-center gap-2 text-sm font-medium text-ink hover:text-brand"
+              className="hidden xl:inline-flex items-center gap-2 text-sm font-medium text-ink hover:text-brand"
             >
               <Icon name="phone" size={18} />
               {phone.display}

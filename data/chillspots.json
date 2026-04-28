@@ -1,0 +1,124 @@
+[
+  {
+    "id": "san-siro",
+    "name": "San Siro Sports Bar & Grill",
+    "type": "Sports bar",
+    "vibe": "Big-screen sports, grill kitchen, late-night crowd. Masvingo's newest hotspot since 2024.",
+    "address": "Hillside Extension, Mucheke, Masvingo",
+    "phone": "+263 77 000 0000",
+    "social": "@sansiromasvingo",
+    "image": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["sports", "grill", "late-night"],
+    "highlight": true
+  },
+  {
+    "id": "stopover-gardens",
+    "name": "Stopover Gardens",
+    "type": "Garden restaurant",
+    "vibe": "Outdoor garden setting, full menu, family-friendly by day, lively by night.",
+    "address": "Masvingo town",
+    "phone": "+263 77 000 0000",
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["garden", "family", "dinner"]
+  },
+  {
+    "id": "oasis-pub-grill",
+    "name": "Oasis Pub & Grill",
+    "type": "Pub & grill",
+    "vibe": "Industrial-chic pub on Factory Road. Cold beers, grill plates, weekend DJs.",
+    "address": "Factory Rd, Masvingo",
+    "phone": "+263 77 000 0000",
+    "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["pub", "grill", "weekend"]
+  },
+  {
+    "id": "granez",
+    "name": "Granez",
+    "type": "Restaurant & bar",
+    "vibe": "Established Masvingo favourite — sit-down dining and a busy bar lounge.",
+    "address": "Masvingo CBD",
+    "phone": "+263 77 000 0000",
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["dining", "lounge"]
+  },
+  {
+    "id": "reflections",
+    "name": "Reflections",
+    "type": "Lounge & club",
+    "vibe": "Upscale lounge by night, mellow café by day. Cocktails and coffee in equal measure.",
+    "address": "Masvingo CBD",
+    "phone": "+263 77 000 0000",
+    "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["cocktails", "lounge"]
+  },
+  {
+    "id": "club-dio",
+    "name": "Club Dio",
+    "type": "Nightclub",
+    "vibe": "Late-night dance floor, big DJ line-ups, Masvingo's go-to for weekend partying.",
+    "address": "Masvingo CBD",
+    "phone": "+263 77 000 0000",
+    "image": "https://images.unsplash.com/photo-1571266028243-d220bc032bcc?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["nightclub", "dance", "weekend"]
+  },
+  {
+    "id": "club-mugove",
+    "name": "Club Mugove",
+    "type": "Nightclub",
+    "vibe": "Zaka's biggest entertainment spot — live shows, local DJs, weekend buses run from town.",
+    "address": "Jerera, Zaka",
+    "phone": "+263 77 000 0000",
+    "image": "https://images.unsplash.com/photo-1493676304819-0d7a8d026dcf?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["nightclub", "Zaka", "live-music"]
+  },
+  {
+    "id": "sundowners-garden",
+    "name": "Sundowners Garden",
+    "type": "Garden bar",
+    "vibe": "Open-air sundowner venue with live bands and a long drinks list.",
+    "address": "Masvingo town",
+    "phone": "+263 77 000 0000",
+    "image": "https://images.unsplash.com/photo-1508253730651-e5ace80a7025?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["garden", "live-music", "sundowner"]
+  },
+  {
+    "id": "regency-flamboyant-bar",
+    "name": "The Flamboyant — Regency Hotel Bar",
+    "type": "Hotel bar",
+    "vibe": "Sit-down hotel bar serving the Masvingo professional crowd. Pool table, big screens.",
+    "address": "Robertson St, Masvingo",
+    "phone": "+263 77 404 5456",
+    "image": "https://images.unsplash.com/photo-1543007630-9710e4a00a20?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["hotel-bar", "pool"]
+  },
+  {
+    "id": "great-zimbabwe-hotel-bar",
+    "name": "Great Zimbabwe Hotel Bar",
+    "type": "Hotel bar",
+    "vibe": "Quiet bar after a day at the ruins. Sundowners on the patio, sometimes live drumming.",
+    "address": "Off Mutare-Beitbridge Rd, Great Zimbabwe",
+    "phone": "+263 39 226 2274",
+    "image": "https://images.unsplash.com/photo-1574096079513-d8259312b785?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["hotel-bar", "near-ruins"]
+  },
+  {
+    "id": "lake-shore-grill",
+    "name": "Lake Shore Grill (Norma Jeane's)",
+    "type": "Lake-view restaurant",
+    "vibe": "Sundowners on the deck overlooking Lake Mutirikwi. English-style menu and grills.",
+    "address": "Kyle Game Park, Lake Mutirikwi",
+    "phone": "+263 39 226 2412",
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["lake-view", "sundowner"]
+  },
+  {
+    "id": "pamushana",
+    "name": "Pamushana — Singita-style chic",
+    "type": "Lounge & coffee",
+    "vibe": "Modern coffee-and-cocktail lounge in the new Masvingo retail strip.",
+    "address": "Masvingo retail strip",
+    "phone": "+263 77 000 0000",
+    "image": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["coffee", "modern"]
+  }
+]

@@ -69,3 +69,77 @@ export type Testimonial = {
   quote: string;
   placeholder?: boolean;
 };
+
+export type Destination = {
+  id: string;
+  rank?: number;
+  name: string;
+  district?: string;
+  categories: string[];
+  tier?: string;
+  unesco?: boolean;
+  summary: string;
+  longDescription?: string;
+  geo?: { lat: number; lng: number };
+  distanceFromMasvingoKm?: number;
+  drivingTimeFromMasvingoMin?: number;
+  fourWheelDriveRequired?: boolean;
+  bestSeason?: string;
+  averageVisitHours?: number;
+  entryFeeUsd?: number | null;
+  tags?: string[];
+  images?: { url: string; credit?: string; alt?: string; verify?: boolean }[];
+};
+
+export type Stay = {
+  id: string;
+  name: string;
+  type: string;
+  tier?: string;
+  summary: string;
+  address?: string;
+  phone?: string;
+  email?: string;
+  image: string;
+  tags?: string[];
+  highlight?: boolean;
+};
+
+export type ChillSpot = {
+  id: string;
+  name: string;
+  type: string;
+  vibe: string;
+  address?: string;
+  phone?: string;
+  social?: string;
+  image: string;
+  tags?: string[];
+  highlight?: boolean;
+};
+
+export type Activity = {
+  id: string;
+  name: string;
+  category: string;
+  summary: string;
+  duration: string;
+  priceFrom: string;
+  image: string;
+  tags?: string[];
+  highlight?: boolean;
+};
+
+export type EmergencyContact = {
+  name: string;
+  phone: string;
+  alt?: string;
+  address?: string;
+  hours?: string;
+  highlight?: boolean;
+};
+
+export type EmergencyGroup = {
+  category: string;
+  items: EmergencyContact[];
+};

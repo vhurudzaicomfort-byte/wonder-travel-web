@@ -24,10 +24,12 @@ export function Footer() {
         </div>
 
         <div>
-          <h3 className="text-sm font-medium text-white">Explore</h3>
+          <h3 className="text-sm font-medium text-white">Quick links</h3>
           <ul className="mt-4 space-y-2.5 text-sm text-white/70">
             <li><Link href="/vehicles" className="hover:text-white">Vehicles</Link></li>
             <li><Link href="/services" className="hover:text-white">Services</Link></li>
+            <li><Link href="/visit-masvingo" className="hover:text-white">Visit Masvingo</Link></li>
+            <li><Link href="/emergency" className="hover:text-white">Emergency services</Link></li>
             <li><Link href="/about" className="hover:text-white">About us</Link></li>
             <li><Link href="/faq" className="hover:text-white">FAQ</Link></li>
             <li><Link href="/contact" className="hover:text-white">Contact</Link></li>

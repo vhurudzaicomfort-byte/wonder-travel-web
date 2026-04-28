@@ -1,0 +1,45 @@
+[
+  {
+    "category": "Police",
+    "items": [
+      { "name": "Zimbabwe Republic Police — National emergency", "phone": "995", "alt": "+263 39 226 2222", "address": "All ZRP stations countrywide", "hours": "24/7" },
+      { "name": "Masvingo Central Police Station", "phone": "+263 39 226 2222", "alt": "+263 39 226 4445", "address": "Robert Mugabe St, Masvingo CBD", "hours": "24/7" },
+      { "name": "Mucheke Police Station", "phone": "+263 39 226 2911", "address": "Mucheke, Masvingo", "hours": "24/7" },
+      { "name": "Highway Patrol — Masvingo", "phone": "+263 39 226 4445", "address": "Beitbridge–Harare Highway", "hours": "24/7" }
+    ]
+  },
+  {
+    "category": "Ambulance & medical",
+    "items": [
+      { "name": "Ambulance — National emergency", "phone": "994", "address": "Nationwide dispatch", "hours": "24/7" },
+      { "name": "Masvingo Provincial General Hospital", "phone": "+263 39 226 2691", "alt": "+263 39 226 2692", "address": "Hospital Rd, Masvingo", "hours": "24/7" },
+      { "name": "Morgenster Mission Hospital", "phone": "+263 39 226 0123", "address": "Morgenster, Masvingo", "hours": "24/7" },
+      { "name": "Mashoko Mission Hospital", "phone": "+263 39 281 2200", "address": "Bikita District", "hours": "24/7" },
+      { "name": "MARS Ambulance — Masvingo", "phone": "+263 78 220 9020", "address": "Private ambulance service", "hours": "24/7" }
+    ]
+  },
+  {
+    "category": "Fire brigade",
+    "items": [
+      { "name": "Fire Brigade — National emergency", "phone": "993", "hours": "24/7" },
+      { "name": "Masvingo City Fire Department", "phone": "+263 39 226 2474", "address": "Robert Mugabe St, Masvingo", "hours": "24/7" }
+    ]
+  },
+  {
+    "category": "Tow trucks & breakdown",
+    "items": [
+      { "name": "Wonder Travel 24/7 roadside assist", "phone": "+263 77 225 8979", "address": "WhatsApp anywhere in Zimbabwe", "hours": "24/7", "highlight": true },
+      { "name": "AA Zimbabwe — Masvingo", "phone": "+263 39 226 4332", "alt": "+263 86 4400 9994", "address": "Robertson St, Masvingo", "hours": "24/7" },
+      { "name": "Masvingo Towing Services", "phone": "+263 77 200 0001", "address": "Masvingo town", "hours": "06:00–22:00" }
+    ]
+  },
+  {
+    "category": "Other",
+    "items": [
+      { "name": "Zimbabwe National Roads Authority (ZINARA)", "phone": "+263 24 274 4400", "address": "Toll & highway hotline", "hours": "08:00–17:00" },
+      { "name": "Masvingo City Council — out of hours", "phone": "+263 39 226 2401", "address": "Civic Centre", "hours": "24/7 emergency line" },
+      { "name": "Childline Zimbabwe", "phone": "116", "address": "Toll-free", "hours": "24/7" },
+      { "name": "Musasa Project — gender-based violence", "phone": "+263 78 225 5520", "address": "Toll-free GBV", "hours": "24/7" }
+    ]
+  }
+]

@@ -5,7 +5,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const base = 'https://wondertravel.co.zw';
   const today = new Date();
 
-  const staticRoutes = ['/', '/vehicles', '/services', '/about', '/contact', '/faq', '/terms', '/privacy', '/cancellation'].map(path => ({
+  const staticRoutes = ['/', '/vehicles', '/services', '/about', '/contact', '/faq', '/terms', '/privacy', '/cancellation', '/visit-masvingo', '/emergency'].map(path => ({
     url: `${base}${path}`,
     lastModified: today,
     changeFrequency: 'weekly' as const,

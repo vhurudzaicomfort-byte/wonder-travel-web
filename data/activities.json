@@ -1,0 +1,124 @@
+[
+  {
+    "id": "great-zimbabwe-tour",
+    "name": "Great Zimbabwe guided tour",
+    "category": "Cultural tour",
+    "summary": "A licensed guide walks you through the Hill Complex, Great Enclosure, and Valley Ruins. 2–3 hours, USD 15–25 per person.",
+    "duration": "2–3 hours",
+    "priceFrom": "USD 15",
+    "image": "https://images.unsplash.com/photo-1535082623926-b39352a03fb7?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["UNESCO", "guided", "history"],
+    "highlight": true
+  },
+  {
+    "id": "lake-cruise",
+    "name": "Lake Mutirikwi sunset cruise",
+    "category": "Boat cruise",
+    "summary": "Late-afternoon cruise on Lake Mutirikwi — hippos, fish eagles, sundowners. Departs Norma Jeane's & Hippo Creek.",
+    "duration": "2 hours",
+    "priceFrom": "USD 25",
+    "image": "https://images.unsplash.com/photo-1582670291541-ec7e9b6b3b13?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["lake", "sunset", "wildlife"],
+    "highlight": true
+  },
+  {
+    "id": "kyle-game-drive",
+    "name": "Kyle Game Park self-drive",
+    "category": "Wildlife",
+    "summary": "Self-drive game tracks around the Mutirikwi shore — white rhino, giraffe, zebra. Park entry ~USD 3.",
+    "duration": "Half day",
+    "priceFrom": "USD 3",
+    "image": "https://images.unsplash.com/photo-1523805009345-7448845a9e53?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["safari", "rhino", "self-drive"]
+  },
+  {
+    "id": "gonarezhou-safari",
+    "name": "Gonarezhou multi-day safari",
+    "category": "Wildlife",
+    "summary": "Three-to-five day 4x4 safari into Zimbabwe's wildest park. Big elephant herds, baobabs, the Chilojo Cliffs.",
+    "duration": "3–5 days",
+    "priceFrom": "USD 220 / day",
+    "image": "https://images.unsplash.com/photo-1503919005314-30d93d07d823?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["safari", "Big Five", "remote"]
+  },
+  {
+    "id": "kyle-fishing",
+    "name": "Lake Mutirikwi fishing",
+    "category": "Fishing",
+    "summary": "Bream, tigerfish, and bass on Zimbabwe's second-largest lake. Hire boat with local skipper from USD 40.",
+    "duration": "Half / full day",
+    "priceFrom": "USD 40",
+    "image": "https://images.unsplash.com/photo-1445384763658-0400939829cd?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["fishing", "lake"]
+  },
+  {
+    "id": "village-tour",
+    "name": "Shona village & cultural tour",
+    "category": "Cultural tour",
+    "summary": "Visit Mabudziya or Takaindisa village. Pottery, mbira, traditional cooking, story-telling around the fire.",
+    "duration": "Half day",
+    "priceFrom": "USD 30",
+    "image": "https://images.unsplash.com/photo-1529900748604-07564a03e7a6?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["culture", "village", "Shona"]
+  },
+  {
+    "id": "mushandike",
+    "name": "Mushandike Sanctuary day trip",
+    "category": "Wildlife",
+    "summary": "Bird sanctuary 35 km from Masvingo town. 200+ species, walking trails, picnic spots.",
+    "duration": "Half day",
+    "priceFrom": "USD 5",
+    "image": "https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["birding", "walking"]
+  },
+  {
+    "id": "tugwi-mukosi",
+    "name": "Tugwi-Mukosi dam tour",
+    "category": "Engineering tour",
+    "summary": "Visit Zimbabwe's largest inland dam — viewpoint, dam wall, growing watersport scene.",
+    "duration": "Half day",
+    "priceFrom": "USD 15",
+    "image": "https://images.unsplash.com/photo-1505142468610-359e7d316be0?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["engineering", "dam", "fishing"]
+  },
+  {
+    "id": "nightlife",
+    "name": "Masvingo nightlife crawl",
+    "category": "Nightlife",
+    "summary": "Sundowners at Norma Jeane's, dinner at Granez, late-night at San Siro or Club Dio. Driver included.",
+    "duration": "Evening",
+    "priceFrom": "USD 60",
+    "image": "https://images.unsplash.com/photo-1493676304819-0d7a8d026dcf?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["nightlife", "chauffeur"]
+  },
+  {
+    "id": "wedding-convoy",
+    "name": "Wedding car & convoy hire",
+    "category": "Events",
+    "summary": "Decorated bridal car plus matching convoy. Mercedes E-Class with chauffeur, plus 4–6 backup cars.",
+    "duration": "Day rate",
+    "priceFrom": "USD 200",
+    "image": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["wedding", "events", "luxury"]
+  },
+  {
+    "id": "shuttle-airport",
+    "name": "Airport shuttle from Harare / Bulawayo",
+    "category": "Transfers",
+    "summary": "Door-to-door from RGM (Harare) or JM Nkomo (Bulawayo) into Masvingo, Great Zimbabwe and beyond.",
+    "duration": "3–4 hours",
+    "priceFrom": "USD 80",
+    "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["airport", "transfers", "shuttle"]
+  },
+  {
+    "id": "events-festivals",
+    "name": "Local events & festivals",
+    "category": "Events",
+    "summary": "Independence celebrations, Heroes' Day, Harurwa season (Nerumedzo), Great Limpopo Cultural Trade Fair.",
+    "duration": "Varies",
+    "priceFrom": "Free",
+    "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1400&q=80",
+    "tags": ["events", "culture", "free"]
+  }
+]

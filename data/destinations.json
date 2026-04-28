@@ -1,0 +1,1887 @@
+{
+  "$schema_note": "Destinations dataset for Wonder Travel Car Rental — Masvingo Province, Zimbabwe. Image URLs are sourced from Wikimedia Commons (CC-licensed, stable) where available, and from reputable Zimbabwean tourism / news sources otherwise. The build process MUST: (1) re-host every image locally under /public/images/destinations/{slug}/ before launch, (2) verify each image still loads and respect each source's licence, (3) replace any image flagged with \"verify\": true after a manual visual check. Do NOT hot-link these URLs in production.",
+  "meta": {
+    "province": "Masvingo",
+    "country": "Zimbabwe",
+    "districts": ["Masvingo", "Bikita", "Chivi", "Chiredzi", "Gutu", "Mwenezi", "Zaka"],
+    "currency": "USD",
+    "lastUpdated": "2026-04-28",
+    "totalDestinations": 80
+  },
+  "categories": [
+    { "id": "heritage",     "label": "Heritage & Monuments" },
+    { "id": "wildlife",     "label": "Wildlife & National Parks" },
+    { "id": "lakes_dams",   "label": "Lakes & Dams" },
+    { "id": "mountains",    "label": "Mountains & Gorges" },
+    { "id": "culture",      "label": "Cultural Sites & Villages" },
+    { "id": "agriculture",  "label": "Plantations & Estates" },
+    { "id": "city",         "label": "City Landmarks" },
+    { "id": "religious",    "label": "Sacred & Mission Sites" },
+    { "id": "industry",     "label": "Industrial & Mining" }
+  ],
+  "destinations": [
+    {
+      "id": "great-zimbabwe",
+      "rank": 1,
+      "name": "Great Zimbabwe National Monument",
+      "district": "Masvingo",
+      "categories": ["heritage", "culture"],
+      "tier": "iconic",
+      "unesco": true,
+      "summary": "UNESCO World Heritage Site and the country's namesake. Ancient stone city built by the Shona between the 11th and 15th centuries — Hill Complex, Great Enclosure, and Valley Ruins.",
+      "longDescription": "Great Zimbabwe is the largest ancient stone structure in sub-Saharan Africa, covering ~800 hectares about 30 km south-east of Masvingo city. The Conical Tower inside the Great Enclosure and the dramatic granite walls of the Hill Complex are the headline sights. Allow at least three hours; arrive at opening (06:00) to beat the heat.",
+      "geo": { "lat": -20.2856, "lng": 30.9344 },
+      "distanceFromMasvingoKm": 30,
+      "drivingTimeFromMasvingoMin": 35,
+      "fourWheelDriveRequired": false,
+      "bestSeason": "May to October (dry season)",
+      "averageVisitHours": 3,
+      "entryFeeUsd": null,
+      "tags": ["UNESCO", "ruins", "heritage", "Shona", "must-see"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Great-zim-aerial-looking-West.JPG/1280px-Great-zim-aerial-looking-West.JPG",
+          "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+          "alt": "Aerial view of the Great Zimbabwe ruins looking west"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Wall_of_the_great_enclosure%2C_Great_Zimbabwe.JPG/1280px-Wall_of_the_great_enclosure%2C_Great_Zimbabwe.JPG",
+          "credit": "Wikimedia Commons (CC BY 3.0)",
+          "alt": "Wall of the Great Enclosure at Great Zimbabwe"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Interior_of_great_enclosure%2CG.Zimbabwe.JPG/800px-Interior_of_great_enclosure%2CG.Zimbabwe.JPG",
+          "credit": "Wikimedia Commons (public domain)",
+          "alt": "Conical Tower inside the Great Enclosure"
+        }
+      ]
+    },
+    {
+      "id": "gonarezhou-national-park",
+      "rank": 2,
+      "name": "Gonarezhou National Park",
+      "district": "Chiredzi",
+      "categories": ["wildlife"],
+      "tier": "iconic",
+      "summary": "Zimbabwe's second-largest national park (5,053 km²). Shona for 'Place of Elephants'. Home to baobabs, palm forests, large herds of elephant, lions, wild dogs, black and white rhino.",
+      "longDescription": "Gonarezhou is Zimbabwe's wildest, least-visited big-game park — a frontier landscape on the Mozambique border. Famous for its giant baobabs, the Runde and Save river systems, big elephant herds, and the dramatic Chilojo Cliffs. Best explored over 3–5 days with a 4x4.",
+      "geo": { "lat": -21.7333, "lng": 31.7833 },
+      "distanceFromMasvingoKm": 280,
+      "drivingTimeFromMasvingoMin": 300,
+      "fourWheelDriveRequired": true,
+      "bestSeason": "May to October",
+      "averageVisitHours": 72,
+      "entryFeeUsd": null,
+      "tags": ["safari", "elephants", "Big Five", "baobab", "4x4"],
+      "images": [
+        {
+          "url": "https://gonarezhou.org/wp-content/uploads/2020/02/elephants-gonarezhou.jpg",
+          "credit": "Gonarezhou Conservation Trust",
+          "alt": "Elephant herd in Gonarezhou National Park",
+          "verify": true
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Gonarezhou_National_Park.jpg/1280px-Gonarezhou_National_Park.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Gonarezhou landscape with baobabs",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "chilojo-cliffs",
+      "rank": 3,
+      "name": "Chilojo Cliffs",
+      "district": "Chiredzi",
+      "categories": ["mountains", "wildlife"],
+      "tier": "iconic",
+      "summary": "Iconic red sandstone cliffs inside Gonarezhou, towering over the Runde River. One of Zimbabwe's most photographed natural landmarks.",
+      "geo": { "lat": -21.85, "lng": 31.95 },
+      "distanceFromMasvingoKm": 320,
+      "drivingTimeFromMasvingoMin": 360,
+      "fourWheelDriveRequired": true,
+      "bestSeason": "May to October",
+      "averageVisitHours": 6,
+      "tags": ["cliffs", "sandstone", "Runde River", "iconic-views"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Chilojo_Cliffs_Gonarezhou.jpg/1280px-Chilojo_Cliffs_Gonarezhou.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Chilojo Cliffs above the Runde River",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "lake-mutirikwi",
+      "rank": 4,
+      "name": "Lake Mutirikwi (Lake Kyle)",
+      "district": "Masvingo",
+      "categories": ["lakes_dams"],
+      "tier": "iconic",
+      "summary": "Zimbabwe's second-largest dam after Tugwi-Mukosi. ~90 km² lake formed by the Kyle Dam (1958–1961) on the Mutirikwi River. Boating, fishing, sundowners.",
+      "geo": { "lat": -20.2167, "lng": 31.0500 },
+      "distanceFromMasvingoKm": 33,
+      "drivingTimeFromMasvingoMin": 40,
+      "fourWheelDriveRequired": false,
+      "bestSeason": "Year-round",
+      "averageVisitHours": 5,
+      "tags": ["lake", "boating", "fishing", "sunset"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Lake_Mutirikwi.jpg/1280px-Lake_Mutirikwi.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Lake Mutirikwi with Kyle Dam wall in distance",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "kyle-recreational-park",
+      "rank": 5,
+      "name": "Lake Mutirikwi Recreational Park (Kyle Game Park)",
+      "district": "Masvingo",
+      "categories": ["wildlife", "lakes_dams"],
+      "tier": "iconic",
+      "summary": "8,000-hectare game park around Lake Mutirikwi. Home to three of the Big Five (buffalo, leopard, white rhino), plus giraffe, zebra, wildebeest. Self-guided drives.",
+      "geo": { "lat": -20.2333, "lng": 31.0833 },
+      "distanceFromMasvingoKm": 33,
+      "drivingTimeFromMasvingoMin": 45,
+      "fourWheelDriveRequired": false,
+      "bestSeason": "May to October",
+      "averageVisitHours": 4,
+      "entryFeeUsd": 3,
+      "tags": ["game-park", "rhino", "self-drive", "family-friendly"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_rhinoceros_%28Ceratotherium_simum%29_Mutirikwi%2C_Zimbabwe.jpg/1280px-White_rhinoceros_%28Ceratotherium_simum%29_Mutirikwi%2C_Zimbabwe.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "White rhino at Lake Mutirikwi Recreational Park",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "tugwi-mukosi-dam",
+      "rank": 6,
+      "name": "Tugwi-Mukosi Dam (Tokwe-Mukosi)",
+      "district": "Chivi",
+      "categories": ["lakes_dams"],
+      "tier": "iconic",
+      "summary": "Zimbabwe's largest inland dam (1.8 billion m³). 90.3 m concrete-face rock-fill wall at the confluence of the Tugwi and Mukosi rivers, completed 2017.",
+      "longDescription": "About 72–115 km south of Masvingo, Tugwi-Mukosi is the country's biggest dam outside of Kariba. A planned game park sits in the buffer zone, and lakeside lodges are being developed. Already a fishing, boating and birdwatching destination.",
+      "geo": { "lat": -20.6500, "lng": 30.9333 },
+      "distanceFromMasvingoKm": 72,
+      "drivingTimeFromMasvingoMin": 90,
+      "fourWheelDriveRequired": false,
+      "bestSeason": "April to August",
+      "averageVisitHours": 4,
+      "tags": ["dam", "fishing", "boating", "engineering"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Tokwe_Mukorsi_Dam_Wall.jpg/1280px-Tokwe_Mukorsi_Dam_Wall.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Tugwi-Mukosi Dam wall",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "save-valley-conservancy",
+      "rank": 7,
+      "name": "Save Valley Conservancy",
+      "district": "Chiredzi",
+      "categories": ["wildlife"],
+      "tier": "iconic",
+      "summary": "~3,100 km² private conservancy — one of the largest in Africa. All Big Five present. Premium safari lodges including Sango and Chishakwe.",
+      "geo": { "lat": -20.5000, "lng": 32.0000 },
+      "distanceFromMasvingoKm": 220,
+      "drivingTimeFromMasvingoMin": 240,
+      "fourWheelDriveRequired": true,
+      "bestSeason": "May to October",
+      "averageVisitHours": 48,
+      "tags": ["safari", "Big Five", "private-conservancy", "luxury"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Sav%C3%A9_Valley_Conservancy_landscape.jpg/1280px-Sav%C3%A9_Valley_Conservancy_landscape.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Savé Valley Conservancy landscape",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "malilangwe-wildlife-reserve",
+      "rank": 8,
+      "name": "Malilangwe Wildlife Reserve",
+      "district": "Chiredzi",
+      "categories": ["wildlife"],
+      "tier": "major",
+      "summary": "Premier private reserve managed by the Malilangwe Trust. Birding paradise, antelope, buffalo, leopard. Home of the Singita Pamushana luxury lodge.",
+      "geo": { "lat": -21.0500, "lng": 31.7500 },
+      "distanceFromMasvingoKm": 240,
+      "drivingTimeFromMasvingoMin": 270,
+      "fourWheelDriveRequired": true,
+      "bestSeason": "May to October",
+      "averageVisitHours": 24,
+      "tags": ["luxury", "birding", "leopard", "rhino"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Singita_Pamushana_view.jpg/1280px-Singita_Pamushana_view.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "View over Malilangwe Wildlife Reserve",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "hippo-valley-estates",
+      "rank": 9,
+      "name": "Hippo Valley Estates",
+      "district": "Chiredzi",
+      "categories": ["agriculture", "city"],
+      "tier": "major",
+      "summary": "Vast sugar-cane plantation on the Runde River — anchor of the Lowveld economy. Hippo Valley Country Club, mill tours, and irrigation landscape.",
+      "geo": { "lat": -21.2500, "lng": 31.5667 },
+      "distanceFromMasvingoKm": 290,
+      "drivingTimeFromMasvingoMin": 300,
+      "fourWheelDriveRequired": false,
+      "bestSeason": "Year-round (harvest April–December)",
+      "averageVisitHours": 3,
+      "tags": ["sugar", "plantation", "industry", "country-club"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Sugarcane_field_Hippo_Valley.jpg/1280px-Sugarcane_field_Hippo_Valley.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Sugarcane fields at Hippo Valley Estates",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "triangle-estates",
+      "rank": 10,
+      "name": "Triangle Estates",
+      "district": "Chiredzi",
+      "categories": ["agriculture", "city"],
+      "tier": "major",
+      "summary": "Sister sugar plantation to Hippo Valley, also producing ethanol. Triangle Country Club is a long-standing Lowveld social hub.",
+      "geo": { "lat": -21.0333, "lng": 31.4833 },
+      "distanceFromMasvingoKm": 280,
+      "drivingTimeFromMasvingoMin": 300,
+      "fourWheelDriveRequired": false,
+      "tags": ["sugar", "ethanol", "plantation", "industry"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Triangle_Sugar_Estate_Zimbabwe.jpg/1280px-Triangle_Sugar_Estate_Zimbabwe.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Triangle sugar estate processing plant",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "mkwasine-estate",
+      "rank": 11,
+      "name": "Mkwasine Estate",
+      "district": "Chiredzi",
+      "categories": ["agriculture"],
+      "tier": "secondary",
+      "summary": "Third major sugar estate alongside Hippo Valley and Triangle. Working agricultural landscape with irrigation infrastructure.",
+      "geo": { "lat": -21.1167, "lng": 31.6500 },
+      "distanceFromMasvingoKm": 285,
+      "drivingTimeFromMasvingoMin": 300,
+      "fourWheelDriveRequired": false,
+      "tags": ["sugar", "irrigation", "plantation"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Triangle_Sugar_Estate_Zimbabwe.jpg/1280px-Triangle_Sugar_Estate_Zimbabwe.jpg",
+          "credit": "Placeholder — same as Triangle",
+          "alt": "Lowveld sugar estate (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "runde-river",
+      "rank": 12,
+      "name": "Runde (Lundi) River",
+      "district": "Chiredzi",
+      "categories": ["wildlife", "lakes_dams"],
+      "tier": "secondary",
+      "summary": "The Lowveld's lifeline river. Hippos, crocodiles, waterbirds — accessible right from Chiredzi town's bridge.",
+      "geo": { "lat": -21.0500, "lng": 31.6667 },
+      "distanceFromMasvingoKm": 280,
+      "drivingTimeFromMasvingoMin": 300,
+      "fourWheelDriveRequired": false,
+      "tags": ["river", "hippos", "birding", "free"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Runde_River_Zimbabwe.jpg/1280px-Runde_River_Zimbabwe.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Runde River at Chipinda Pools",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "chilo-gorge",
+      "rank": 13,
+      "name": "Chilo Gorge",
+      "district": "Chiredzi",
+      "categories": ["mountains", "lakes_dams"],
+      "tier": "secondary",
+      "summary": "Dramatic gorge on the Save River bordering Gonarezhou. Home of Chilo Gorge Safari Lodge.",
+      "geo": { "lat": -20.7833, "lng": 32.4500 },
+      "distanceFromMasvingoKm": 260,
+      "drivingTimeFromMasvingoMin": 300,
+      "fourWheelDriveRequired": true,
+      "tags": ["gorge", "Save River", "lodge"],
+      "images": [
+        {
+          "url": "https://chilogorge.com/wp-content/uploads/2019/01/lodge-aerial.jpg",
+          "credit": "Chilo Gorge Safari Lodge",
+          "alt": "Aerial view of Chilo Gorge on the Save River",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "buffalo-range-airport",
+      "rank": 14,
+      "name": "Buffalo Range Airport",
+      "district": "Chiredzi",
+      "categories": ["city"],
+      "tier": "secondary",
+      "summary": "The Lowveld's domestic airport — gateway to Gonarezhou and Save Valley. Recently refurbished.",
+      "geo": { "lat": -21.0083, "lng": 31.5783 },
+      "distanceFromMasvingoKm": 280,
+      "drivingTimeFromMasvingoMin": 300,
+      "fourWheelDriveRequired": false,
+      "tags": ["airport", "transport", "logistics"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Buffalo_Range_Airport_apron.jpg/1280px-Buffalo_Range_Airport_apron.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Buffalo Range Airport apron",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "boli-multicultural-village",
+      "rank": 15,
+      "name": "Boli Mhlanguleni Multi-Cultural Village",
+      "district": "Chiredzi",
+      "categories": ["culture"],
+      "tier": "secondary",
+      "summary": "Multi-cultural village in Chiredzi south. Hosts the annual Great Limpopo Cultural Trade Fair (Zimbabwe / Mozambique / South Africa).",
+      "geo": { "lat": -21.6500, "lng": 31.9167 },
+      "distanceFromMasvingoKm": 320,
+      "drivingTimeFromMasvingoMin": 360,
+      "fourWheelDriveRequired": true,
+      "tags": ["culture", "festival", "Tsonga", "Shangani"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Shangani_dancers_Zimbabwe.jpg/1280px-Shangani_dancers_Zimbabwe.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Traditional Shangani dancers",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "chipinda-pools",
+      "rank": 16,
+      "name": "Chipinda Pools",
+      "district": "Chiredzi",
+      "categories": ["wildlife", "lakes_dams"],
+      "tier": "secondary",
+      "summary": "Northern entrance and main camp area for Gonarezhou. Self-catering chalets, river views, big-elephant country.",
+      "geo": { "lat": -21.2667, "lng": 31.9333 },
+      "distanceFromMasvingoKm": 280,
+      "drivingTimeFromMasvingoMin": 330,
+      "fourWheelDriveRequired": true,
+      "tags": ["camping", "river", "elephants", "Gonarezhou"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Gonarezhou_National_Park.jpg/1280px-Gonarezhou_National_Park.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Chipinda Pools landscape",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "chiredzi-town-market",
+      "rank": 17,
+      "name": "Chiredzi Town Market",
+      "district": "Chiredzi",
+      "categories": ["city", "culture"],
+      "tier": "secondary",
+      "summary": "Vibrant local trade hub — fresh produce, roasted maize, second-hand clothes, and small handcrafted souvenirs.",
+      "geo": { "lat": -21.0500, "lng": 31.6667 },
+      "distanceFromMasvingoKm": 280,
+      "drivingTimeFromMasvingoMin": 300,
+      "fourWheelDriveRequired": false,
+      "tags": ["market", "local-life", "free"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Zimbabwean_market.jpg/1280px-Zimbabwean_market.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Zimbabwean market scene",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "sango-wildlife-lodge",
+      "rank": 18,
+      "name": "Sango Wildlife Lodge",
+      "district": "Chiredzi",
+      "categories": ["wildlife"],
+      "tier": "secondary",
+      "summary": "Award-winning luxury safari lodge inside Save Valley Conservancy. 600 km² section, four luxury chalets and a tented camp.",
+      "geo": { "lat": -20.6000, "lng": 32.0500 },
+      "distanceFromMasvingoKm": 240,
+      "drivingTimeFromMasvingoMin": 270,
+      "fourWheelDriveRequired": true,
+      "tags": ["luxury", "lodge", "Save Valley"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Sav%C3%A9_Valley_Conservancy_landscape.jpg/1280px-Sav%C3%A9_Valley_Conservancy_landscape.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Save Valley Conservancy near Sango",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "tugwi-mukosi-dam-wall",
+      "rank": 19,
+      "name": "Tugwi-Mukosi Dam Wall Viewpoint",
+      "district": "Chivi",
+      "categories": ["lakes_dams"],
+      "tier": "secondary",
+      "summary": "The 90.3 m concrete-face rock-fill dam wall — an engineering landmark with a planned game park in its buffer zone.",
+      "geo": { "lat": -20.6500, "lng": 30.9333 },
+      "distanceFromMasvingoKm": 72,
+      "drivingTimeFromMasvingoMin": 90,
+      "fourWheelDriveRequired": false,
+      "tags": ["engineering", "dam-wall", "viewpoint"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Tokwe_Mukorsi_Dam_Wall.jpg/1280px-Tokwe_Mukorsi_Dam_Wall.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Tugwi-Mukosi Dam wall",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "bangala-dam",
+      "rank": 20,
+      "name": "Bangala Dam",
+      "district": "Chivi",
+      "categories": ["lakes_dams"],
+      "tier": "secondary",
+      "summary": "Major irrigation dam in Chivi/Zaka. Fishing, picnics, and a quiet alternative to Mutirikwi.",
+      "geo": { "lat": -20.5333, "lng": 31.2167 },
+      "distanceFromMasvingoKm": 75,
+      "drivingTimeFromMasvingoMin": 100,
+      "fourWheelDriveRequired": false,
+      "tags": ["dam", "fishing", "irrigation"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Bangala_Dam_Zimbabwe.jpg/1280px-Bangala_Dam_Zimbabwe.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Bangala Dam in Masvingo Province",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "muzhwi-dam",
+      "rank": 21,
+      "name": "Muzhwi Dam",
+      "district": "Chivi",
+      "categories": ["lakes_dams"],
+      "tier": "tertiary",
+      "summary": "Substantial Chivi dam used for irrigation and fishing. Smallholder irrigation revitalisation hub.",
+      "geo": { "lat": -20.4667, "lng": 30.7833 },
+      "distanceFromMasvingoKm": 60,
+      "drivingTimeFromMasvingoMin": 80,
+      "fourWheelDriveRequired": false,
+      "tags": ["dam", "fishing", "irrigation"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Zimbabwe_dam_landscape.jpg/1280px-Zimbabwe_dam_landscape.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Zimbabwean dam landscape",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "chivi-mountains",
+      "rank": 22,
+      "name": "Chivi Mountain Ranges",
+      "district": "Chivi",
+      "categories": ["mountains"],
+      "tier": "tertiary",
+      "summary": "Beautiful ranges from Chibi-Turn-off through Madzivire communal lands to Runde Bridge. Mountain-tourism potential.",
+      "geo": { "lat": -20.4000, "lng": 30.8500 },
+      "distanceFromMasvingoKm": 60,
+      "drivingTimeFromMasvingoMin": 80,
+      "fourWheelDriveRequired": false,
+      "tags": ["mountains", "scenic-drive", "hiking"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Zimbabwe_landscape_hills.jpg/1280px-Zimbabwe_landscape_hills.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Hills and rocky landscape in southern Zimbabwe",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "runde-tende-confluence",
+      "rank": 23,
+      "name": "Runde-Tende River Confluence (Chasiyatende)",
+      "district": "Chivi",
+      "categories": ["lakes_dams", "mountains"],
+      "tier": "tertiary",
+      "summary": "Site of the planned Tende-Runde Dam (will be 2.5× Tugwi-Mukosi when built). Currently a dramatic mountain-and-river junction.",
+      "geo": { "lat": -20.7000, "lng": 31.0000 },
+      "distanceFromMasvingoKm": 110,
+      "drivingTimeFromMasvingoMin": 150,
+      "fourWheelDriveRequired": true,
+      "tags": ["river", "future-dam", "off-the-beaten-path"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Zimbabwe_landscape_hills.jpg/1280px-Zimbabwe_landscape_hills.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "River-and-hills landscape (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "chivi-national-monument",
+      "rank": 24,
+      "name": "Chivi National Monument",
+      "district": "Chivi",
+      "categories": ["heritage", "culture"],
+      "tier": "tertiary",
+      "summary": "Cultural heritage stone site in Chivi District. Less-visited counterpart to Great Zimbabwe.",
+      "geo": { "lat": -20.3000, "lng": 30.7500 },
+      "distanceFromMasvingoKm": 55,
+      "drivingTimeFromMasvingoMin": 75,
+      "fourWheelDriveRequired": false,
+      "tags": ["heritage", "monument", "Karanga"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Wall_of_the_great_enclosure%2C_Great_Zimbabwe.JPG/1280px-Wall_of_the_great_enclosure%2C_Great_Zimbabwe.JPG",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Stone walling, Zimbabwe culture (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "ngundu",
+      "rank": 25,
+      "name": "Ngundu",
+      "district": "Chivi",
+      "categories": ["city"],
+      "tier": "tertiary",
+      "summary": "Highway junction town on the A4 to Beitbridge — the gateway from Masvingo to Tugwi-Mukosi and Chiredzi.",
+      "geo": { "lat": -21.2667, "lng": 30.9667 },
+      "distanceFromMasvingoKm": 110,
+      "drivingTimeFromMasvingoMin": 90,
+      "fourWheelDriveRequired": false,
+      "tags": ["junction", "highway", "stopover"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Zimbabwe_road.jpg/1280px-Zimbabwe_road.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Highway in southern Zimbabwe",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "nerumedzo-sacred-forest",
+      "rank": 26,
+      "name": "Nerumedzo Sacred Mountain & Forest",
+      "district": "Bikita",
+      "categories": ["religious", "culture", "heritage"],
+      "tier": "major",
+      "summary": "National monument and 12 km² sacred Jiri forest. Home of the seasonal Harurwa (edible stink bug) ceremonies, April–August. Rainmaking shrine.",
+      "longDescription": "Nerumedzo is the spiritual heart of Bikita. Local tradition tells of Nemeso, the four-eyed founding ancestor who was given the harurwa stink bugs as a perpetual gift from the ancestors. Indigenous plant species inside the forest are protected by traditional law, making Nerumedzo a remarkable example of indigenous-knowledge conservation.",
+      "geo": { "lat": -20.0833, "lng": 31.7500 },
+      "distanceFromMasvingoKm": 110,
+      "drivingTimeFromMasvingoMin": 130,
+      "fourWheelDriveRequired": false,
+      "bestSeason": "April to August (Harurwa season)",
+      "tags": ["sacred", "harurwa", "forest", "Shona-heritage"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Encosternum_delegorguei_harurwa.jpg/1280px-Encosternum_delegorguei_harurwa.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Harurwa (Encosternum delegorguei) edible stink bugs",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "chibvumani-ruins",
+      "rank": 27,
+      "name": "Chibvumani Ruins",
+      "district": "Bikita",
+      "categories": ["heritage"],
+      "tier": "major",
+      "summary": "Dry-stone walled site (300+ stones) in Mamutse, Bikita. Part of the broader Zimbabwe Culture, dated by Caton-Thompson (1929).",
+      "geo": { "lat": -20.0500, "lng": 31.6500 },
+      "distanceFromMasvingoKm": 100,
+      "drivingTimeFromMasvingoMin": 120,
+      "fourWheelDriveRequired": false,
+      "tags": ["ruins", "dry-stone", "Karanga", "heritage"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Chibvumani_Ruins.jpg/1280px-Chibvumani_Ruins.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Chibvumani Ruins dry-stone walling",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "bikita-mountain",
+      "rank": 28,
+      "name": "Bikita Mountain (Mamutse)",
+      "district": "Bikita",
+      "categories": ["mountains", "religious"],
+      "tier": "secondary",
+      "summary": "Sacred mountain after which the district is named. The original colonial offices were located in its foothills.",
+      "geo": { "lat": -20.1000, "lng": 31.7000 },
+      "distanceFromMasvingoKm": 95,
+      "drivingTimeFromMasvingoMin": 115,
+      "fourWheelDriveRequired": false,
+      "tags": ["sacred", "mountain", "hiking"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Zimbabwe_landscape_hills.jpg/1280px-Zimbabwe_landscape_hills.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Granite hill landscape (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "devuli-ranch",
+      "rank": 29,
+      "name": "Devuli Ranch",
+      "district": "Bikita",
+      "categories": ["wildlife"],
+      "tier": "secondary",
+      "summary": "Game park and ranch in Bikita, near Save Valley Conservancy. Home of Chishakwe Lodge.",
+      "geo": { "lat": -20.5500, "lng": 31.9000 },
+      "distanceFromMasvingoKm": 180,
+      "drivingTimeFromMasvingoMin": 210,
+      "fourWheelDriveRequired": true,
+      "tags": ["ranch", "game", "lodge"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Sav%C3%A9_Valley_Conservancy_landscape.jpg/1280px-Sav%C3%A9_Valley_Conservancy_landscape.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Devuli Ranch landscape (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "devuli-range",
+      "rank": 30,
+      "name": "Devuli Range / Bikita Hills",
+      "district": "Bikita",
+      "categories": ["mountains"],
+      "tier": "tertiary",
+      "summary": "Series of low-lying hills with spiritual significance. Includes Bikita Mt. and Chirivira Mt.",
+      "geo": { "lat": -20.2000, "lng": 31.8500 },
+      "distanceFromMasvingoKm": 100,
+      "drivingTimeFromMasvingoMin": 120,
+      "fourWheelDriveRequired": false,
+      "tags": ["hills", "scenic-drive"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Zimbabwe_landscape_hills.jpg/1280px-Zimbabwe_landscape_hills.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Rolling hills of Bikita",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "ruvuravingwe-mountain",
+      "rank": 31,
+      "name": "Ruvuravingwe Mountain",
+      "district": "Bikita",
+      "categories": ["mountains"],
+      "tier": "tertiary",
+      "summary": "The highest and most prominent mountain in Bikita (out of 218 named peaks).",
+      "geo": { "lat": -20.1500, "lng": 31.9333 },
+      "distanceFromMasvingoKm": 105,
+      "drivingTimeFromMasvingoMin": 130,
+      "fourWheelDriveRequired": true,
+      "tags": ["highest-peak", "hiking", "remote"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Zimbabwe_landscape_hills.jpg/1280px-Zimbabwe_landscape_hills.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Granite peak (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "siya-dam",
+      "rank": 32,
+      "name": "Siya Dam (Siye)",
+      "district": "Bikita",
+      "categories": ["lakes_dams"],
+      "tier": "secondary",
+      "summary": "Major Bikita dam, popular for fish breeding (bream).",
+      "geo": { "lat": -20.0000, "lng": 31.7500 },
+      "distanceFromMasvingoKm": 120,
+      "drivingTimeFromMasvingoMin": 140,
+      "fourWheelDriveRequired": false,
+      "tags": ["dam", "fishing", "bream"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Zimbabwe_dam_landscape.jpg/1280px-Zimbabwe_dam_landscape.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Siya Dam in Bikita",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "rozva-dam",
+      "rank": 33,
+      "name": "Rozva Dam",
+      "district": "Bikita",
+      "categories": ["lakes_dams"],
+      "tier": "tertiary",
+      "summary": "Significant Bikita dam used for fishing and irrigation.",
+      "geo": { "lat": -20.0500, "lng": 31.7833 },
+      "distanceFromMasvingoKm": 115,
+      "drivingTimeFromMasvingoMin": 135,
+      "fourWheelDriveRequired": false,
+      "tags": ["dam", "fishing"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Zimbabwe_dam_landscape.jpg/1280px-Zimbabwe_dam_landscape.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Bikita dam landscape (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "bikita-minerals-mine",
+      "rank": 34,
+      "name": "Bikita Minerals Mine",
+      "district": "Bikita",
+      "categories": ["industry"],
+      "tier": "secondary",
+      "summary": "World's largest petalite (lithium) deposit — about 11 million tonnes. Industrial-tourism interest, owned by Sinomine since 2022.",
+      "geo": { "lat": -19.9633, "lng": 31.4278 },
+      "distanceFromMasvingoKm": 80,
+      "drivingTimeFromMasvingoMin": 100,
+      "fourWheelDriveRequired": false,
+      "tags": ["mining", "lithium", "industry", "global-significance"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Lithium_mine_aerial.jpg/1280px-Lithium_mine_aerial.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Open-pit lithium mine",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "save-conservatives",
+      "rank": 35,
+      "name": "Save Conservatives",
+      "district": "Bikita",
+      "categories": ["wildlife"],
+      "tier": "tertiary",
+      "summary": "Big Five conservation area owned by Bikita Rural District Council. Includes the Mkonto gold mine.",
+      "geo": { "lat": -20.4500, "lng": 31.9500 },
+      "distanceFromMasvingoKm": 170,
+      "drivingTimeFromMasvingoMin": 200,
+      "fourWheelDriveRequired": true,
+      "tags": ["Big Five", "conservation", "council-run"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Sav%C3%A9_Valley_Conservancy_landscape.jpg/1280px-Sav%C3%A9_Valley_Conservancy_landscape.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Save Conservancy area landscape",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "mashoko-mission",
+      "rank": 36,
+      "name": "Mashoko Mission",
+      "district": "Bikita",
+      "categories": ["religious", "city"],
+      "tier": "tertiary",
+      "summary": "Renowned Church of Christ mission with a famous hospital and high school. A beacon of education in the Matsai community.",
+      "geo": { "lat": -20.1167, "lng": 31.6500 },
+      "distanceFromMasvingoKm": 100,
+      "drivingTimeFromMasvingoMin": 130,
+      "fourWheelDriveRequired": false,
+      "tags": ["mission", "hospital", "education"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Mission_hospital_Africa.jpg/1280px-Mission_hospital_Africa.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Mission hospital (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "silveira-mission",
+      "rank": 37,
+      "name": "Silveira Mission",
+      "district": "Bikita",
+      "categories": ["religious"],
+      "tier": "tertiary",
+      "summary": "Historic Catholic mission station and high school. Stop on the way to Nerumedzo Sacred Forest.",
+      "geo": { "lat": -20.1000, "lng": 31.7000 },
+      "distanceFromMasvingoKm": 95,
+      "drivingTimeFromMasvingoMin": 115,
+      "fourWheelDriveRequired": false,
+      "tags": ["mission", "Catholic", "education"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Mission_hospital_Africa.jpg/1280px-Mission_hospital_Africa.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Catholic mission school (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "pamushana-mission",
+      "rank": 38,
+      "name": "Pamushana High School / Mission",
+      "district": "Bikita",
+      "categories": ["religious"],
+      "tier": "tertiary",
+      "summary": "Dutch Reformed mission and high school with scenic grounds.",
+      "geo": { "lat": -20.1500, "lng": 31.6833 },
+      "distanceFromMasvingoKm": 105,
+      "drivingTimeFromMasvingoMin": 130,
+      "fourWheelDriveRequired": false,
+      "tags": ["mission", "Reformed", "education"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Mission_hospital_Africa.jpg/1280px-Mission_hospital_Africa.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Mission school grounds (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "nyika-growth-point",
+      "rank": 39,
+      "name": "Nyika Growth Point",
+      "district": "Bikita",
+      "categories": ["city"],
+      "tier": "tertiary",
+      "summary": "Bikita District administrative centre. Local market and stop-over town.",
+      "geo": { "lat": -20.1167, "lng": 31.6833 },
+      "distanceFromMasvingoKm": 82,
+      "drivingTimeFromMasvingoMin": 100,
+      "fourWheelDriveRequired": false,
+      "tags": ["growth-point", "market", "stopover"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Zimbabwean_market.jpg/1280px-Zimbabwean_market.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Zimbabwean growth point market",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "masvingo-museum",
+      "rank": 40,
+      "name": "Masvingo Provincial Museum",
+      "district": "Masvingo",
+      "categories": ["heritage", "city"],
+      "tier": "secondary",
+      "summary": "Houses the original Great Zimbabwe Bird soapstone carvings and regional artefacts.",
+      "geo": { "lat": -20.0700, "lng": 30.8333 },
+      "distanceFromMasvingoKm": 0,
+      "drivingTimeFromMasvingoMin": 5,
+      "fourWheelDriveRequired": false,
+      "tags": ["museum", "Zimbabwe-Bird", "heritage"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Zimbabwe_Bird_soapstone.jpg/800px-Zimbabwe_Bird_soapstone.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Zimbabwe Bird soapstone carving",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "old-fort-monument",
+      "rank": 41,
+      "name": "Old Fort National Monument",
+      "district": "Masvingo",
+      "categories": ["heritage", "city"],
+      "tier": "secondary",
+      "summary": "Built in 1891 in the centre of Masvingo town as part of the colonial route from Salisbury (Harare) southward. Marks Masvingo as Zimbabwe's oldest colonial settlement.",
+      "geo": { "lat": -20.0700, "lng": 30.8333 },
+      "distanceFromMasvingoKm": 0,
+      "drivingTimeFromMasvingoMin": 5,
+      "fourWheelDriveRequired": false,
+      "tags": ["fort", "colonial-history", "1891"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Fort_Victoria_Zimbabwe.jpg/1280px-Fort_Victoria_Zimbabwe.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Fort Victoria (Old Fort) Masvingo",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "mushandike-sanctuary",
+      "rank": 42,
+      "name": "Mushandike Sanctuary",
+      "district": "Masvingo",
+      "categories": ["wildlife"],
+      "tier": "secondary",
+      "summary": "Game sanctuary west of Masvingo. Antelope, zebra, leopard. Beautiful Mopane forest in autumn colours.",
+      "geo": { "lat": -20.1500, "lng": 30.6500 },
+      "distanceFromMasvingoKm": 30,
+      "drivingTimeFromMasvingoMin": 40,
+      "fourWheelDriveRequired": false,
+      "bestSeason": "May to September",
+      "tags": ["game", "antelope", "Mopane", "picnic"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Mushandike_Sanctuary.jpg/1280px-Mushandike_Sanctuary.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Mushandike Sanctuary landscape",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "mushandike-dam",
+      "rank": 43,
+      "name": "Mushandike Dam",
+      "district": "Masvingo",
+      "categories": ["lakes_dams"],
+      "tier": "tertiary",
+      "summary": "Dam inside Mushandike Sanctuary — fishing and picnics.",
+      "geo": { "lat": -20.1500, "lng": 30.6500 },
+      "distanceFromMasvingoKm": 30,
+      "drivingTimeFromMasvingoMin": 40,
+      "fourWheelDriveRequired": false,
+      "tags": ["dam", "fishing", "picnic"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Zimbabwe_dam_landscape.jpg/1280px-Zimbabwe_dam_landscape.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Mushandike Dam landscape",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "pokoteke-gorge",
+      "rank": 44,
+      "name": "Pokoteke Gorge",
+      "district": "Masvingo",
+      "categories": ["mountains"],
+      "tier": "tertiary",
+      "summary": "Where the Pokoteke River cuts through the Beza Range north of Lake Mutirikwi. Hiking and scenery.",
+      "geo": { "lat": -20.1500, "lng": 31.1000 },
+      "distanceFromMasvingoKm": 40,
+      "drivingTimeFromMasvingoMin": 60,
+      "fourWheelDriveRequired": true,
+      "tags": ["gorge", "hiking", "off-the-beaten-path"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Zimbabwe_landscape_hills.jpg/1280px-Zimbabwe_landscape_hills.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Granite gorge landscape (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "sikato-bay",
+      "rank": 45,
+      "name": "Sikato Bay (Lake Mutirikwi)",
+      "district": "Masvingo",
+      "categories": ["lakes_dams"],
+      "tier": "tertiary",
+      "summary": "Boat-cruise launch point on Lake Mutirikwi. Thunder Boat Cruises operates from here.",
+      "geo": { "lat": -20.2333, "lng": 31.0333 },
+      "distanceFromMasvingoKm": 35,
+      "drivingTimeFromMasvingoMin": 45,
+      "fourWheelDriveRequired": false,
+      "tags": ["boat-cruise", "lake"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Lake_Mutirikwi.jpg/1280px-Lake_Mutirikwi.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Lake Mutirikwi shore at Sikato Bay",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "kyle-dam-wall",
+      "rank": 46,
+      "name": "Kyle Dam Wall",
+      "district": "Masvingo",
+      "categories": ["lakes_dams"],
+      "tier": "tertiary",
+      "summary": "Walkable dam wall with sweeping views over Lake Mutirikwi. Built 1958–1961.",
+      "geo": { "lat": -20.2333, "lng": 31.0500 },
+      "distanceFromMasvingoKm": 33,
+      "drivingTimeFromMasvingoMin": 45,
+      "fourWheelDriveRequired": false,
+      "tags": ["dam-wall", "viewpoint"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Lake_Mutirikwi.jpg/1280px-Lake_Mutirikwi.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Kyle Dam wall and Lake Mutirikwi",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "mabudziya-village",
+      "rank": 47,
+      "name": "Mabudziya Village",
+      "district": "Masvingo",
+      "categories": ["culture"],
+      "tier": "secondary",
+      "summary": "Well-preserved traditional Shona village. Authentic huts, dance, storytelling, and craft.",
+      "geo": { "lat": -20.1000, "lng": 30.9000 },
+      "distanceFromMasvingoKm": 25,
+      "drivingTimeFromMasvingoMin": 40,
+      "fourWheelDriveRequired": false,
+      "tags": ["culture", "Shona", "village", "traditional"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Shona_traditional_huts.jpg/1280px-Shona_traditional_huts.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Traditional Shona huts",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "takaindisa-village",
+      "rank": 48,
+      "name": "Takaindisa Village",
+      "district": "Masvingo",
+      "categories": ["culture"],
+      "tier": "tertiary",
+      "summary": "Traditional cultural village experience similar to Mabudziya — quieter and more local.",
+      "geo": { "lat": -20.1500, "lng": 30.9500 },
+      "distanceFromMasvingoKm": 30,
+      "drivingTimeFromMasvingoMin": 45,
+      "fourWheelDriveRequired": false,
+      "tags": ["culture", "Shona", "village"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Shona_traditional_huts.jpg/1280px-Shona_traditional_huts.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Traditional Shona village (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "charles-austin-theatre",
+      "rank": 49,
+      "name": "Charles Austin Theatre",
+      "district": "Masvingo",
+      "categories": ["city", "culture"],
+      "tier": "tertiary",
+      "summary": "Local theatre and performing-arts venue at Masvingo Civic Centre.",
+      "geo": { "lat": -20.0700, "lng": 30.8300 },
+      "distanceFromMasvingoKm": 0,
+      "drivingTimeFromMasvingoMin": 5,
+      "fourWheelDriveRequired": false,
+      "tags": ["theatre", "arts", "civic"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Theatre_seats_audience.jpg/1280px-Theatre_seats_audience.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Theatre interior (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "mucheke-stadium",
+      "rank": 50,
+      "name": "Mucheke Stadium",
+      "district": "Masvingo",
+      "categories": ["city"],
+      "tier": "tertiary",
+      "summary": "Home of Masvingo United FC. Local football culture and atmosphere.",
+      "geo": { "lat": -20.0833, "lng": 30.8167 },
+      "distanceFromMasvingoKm": 2,
+      "drivingTimeFromMasvingoMin": 8,
+      "fourWheelDriveRequired": false,
+      "tags": ["football", "stadium", "local-life"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Football_stadium_Zimbabwe.jpg/1280px-Football_stadium_Zimbabwe.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Mucheke Stadium",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "great-zimbabwe-university",
+      "rank": 51,
+      "name": "Great Zimbabwe University",
+      "district": "Masvingo",
+      "categories": ["city"],
+      "tier": "tertiary",
+      "summary": "One of Masvingo's two universities. Modern campus with cultural and heritage programmes.",
+      "geo": { "lat": -20.1167, "lng": 30.8167 },
+      "distanceFromMasvingoKm": 5,
+      "drivingTimeFromMasvingoMin": 10,
+      "fourWheelDriveRequired": false,
+      "tags": ["university", "education"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/University_campus_Africa.jpg/1280px-University_campus_Africa.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "University campus (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "copota-school",
+      "rank": 52,
+      "name": "Margaretha Hugo School for the Blind (Copota)",
+      "district": "Masvingo",
+      "categories": ["city", "religious"],
+      "tier": "tertiary",
+      "summary": "Zimbabwe's first school for the visually impaired. Historic institution with a Reformed Church heritage.",
+      "geo": { "lat": -20.1000, "lng": 30.7500 },
+      "distanceFromMasvingoKm": 12,
+      "drivingTimeFromMasvingoMin": 20,
+      "fourWheelDriveRequired": false,
+      "tags": ["education", "social", "historic"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Mission_hospital_Africa.jpg/1280px-Mission_hospital_Africa.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Mission school grounds (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "copota-shakashe-dam",
+      "rank": 53,
+      "name": "Copota / Shakashe Dam Wall",
+      "district": "Masvingo",
+      "categories": ["lakes_dams"],
+      "tier": "tertiary",
+      "summary": "Quiet local picnic and nature spot just outside Masvingo city.",
+      "geo": { "lat": -20.1000, "lng": 30.7500 },
+      "distanceFromMasvingoKm": 12,
+      "drivingTimeFromMasvingoMin": 20,
+      "fourWheelDriveRequired": false,
+      "tags": ["picnic", "dam", "free"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Zimbabwe_dam_landscape.jpg/1280px-Zimbabwe_dam_landscape.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Local dam (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "sundowners-garden",
+      "rank": 54,
+      "name": "Sundowners Garden",
+      "district": "Masvingo",
+      "categories": ["city"],
+      "tier": "tertiary",
+      "summary": "Tranquil garden retreat in Masvingo — quiet escape, popular for events.",
+      "geo": { "lat": -20.0833, "lng": 30.8500 },
+      "distanceFromMasvingoKm": 3,
+      "drivingTimeFromMasvingoMin": 8,
+      "fourWheelDriveRequired": false,
+      "tags": ["garden", "events", "relaxing"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Garden_in_Africa.jpg/1280px-Garden_in_Africa.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Garden setting (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "goshen-ranch",
+      "rank": 55,
+      "name": "Goshen Ranch",
+      "district": "Masvingo",
+      "categories": ["wildlife", "agriculture"],
+      "tier": "tertiary",
+      "summary": "Recreational ranch offering relaxed outdoor activities and game viewing.",
+      "geo": { "lat": -20.1500, "lng": 30.9000 },
+      "distanceFromMasvingoKm": 25,
+      "drivingTimeFromMasvingoMin": 35,
+      "fourWheelDriveRequired": false,
+      "tags": ["ranch", "outdoors"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_rhinoceros_%28Ceratotherium_simum%29_Mutirikwi%2C_Zimbabwe.jpg/1280px-White_rhinoceros_%28Ceratotherium_simum%29_Mutirikwi%2C_Zimbabwe.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Game ranch wildlife (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "pamawiro",
+      "rank": 56,
+      "name": "Pamawiro",
+      "district": "Masvingo",
+      "categories": ["mountains"],
+      "tier": "tertiary",
+      "summary": "Scenic confluence of the Chivaka and Shange rivers — peaceful and photogenic.",
+      "geo": { "lat": -20.1500, "lng": 30.9500 },
+      "distanceFromMasvingoKm": 30,
+      "drivingTimeFromMasvingoMin": 50,
+      "fourWheelDriveRequired": true,
+      "tags": ["river-confluence", "scenic", "free"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Runde_River_Zimbabwe.jpg/1280px-Runde_River_Zimbabwe.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "River confluence (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "monga-mountain",
+      "rank": 57,
+      "name": "Monga Mountain",
+      "district": "Masvingo",
+      "categories": ["mountains"],
+      "tier": "tertiary",
+      "summary": "Hiking and viewpoint location near Masvingo.",
+      "geo": { "lat": -20.0833, "lng": 30.9000 },
+      "distanceFromMasvingoKm": 20,
+      "drivingTimeFromMasvingoMin": 30,
+      "fourWheelDriveRequired": false,
+      "tags": ["hiking", "viewpoint"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Zimbabwe_landscape_hills.jpg/1280px-Zimbabwe_landscape_hills.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Granite mountain (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "sikato-lion-park",
+      "rank": 58,
+      "name": "Sikato Lion Park",
+      "district": "Masvingo",
+      "categories": ["wildlife"],
+      "tier": "tertiary",
+      "summary": "Lion sanctuary near Lake Mutirikwi.",
+      "geo": { "lat": -20.2333, "lng": 31.0333 },
+      "distanceFromMasvingoKm": 35,
+      "drivingTimeFromMasvingoMin": 45,
+      "fourWheelDriveRequired": false,
+      "tags": ["lions", "sanctuary"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Lion_in_Zimbabwe.jpg/1280px-Lion_in_Zimbabwe.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Lion in Zimbabwe",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "nemanwa-growth-point",
+      "rank": 59,
+      "name": "Nemanwa Growth Point",
+      "district": "Masvingo",
+      "categories": ["city"],
+      "tier": "tertiary",
+      "summary": "Closest growth point to Great Zimbabwe — local market, lodgings, and crafts.",
+      "geo": { "lat": -20.2667, "lng": 30.9333 },
+      "distanceFromMasvingoKm": 28,
+      "drivingTimeFromMasvingoMin": 35,
+      "fourWheelDriveRequired": false,
+      "tags": ["growth-point", "crafts", "market"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Zimbabwean_market.jpg/1280px-Zimbabwean_market.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Nemanwa market and crafts",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "njelele-shrine-masvingo",
+      "rank": 60,
+      "name": "Njelele Shrine (Masvingo Province)",
+      "district": "Masvingo",
+      "categories": ["religious", "culture"],
+      "tier": "tertiary",
+      "summary": "Sacred rainmaking and ancestral-worship site (distinct from the more famous Matobo Njelele).",
+      "geo": { "lat": -20.0833, "lng": 30.9500 },
+      "distanceFromMasvingoKm": 30,
+      "drivingTimeFromMasvingoMin": 50,
+      "fourWheelDriveRequired": true,
+      "tags": ["sacred", "rainmaking", "ancestral"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Zimbabwe_landscape_hills.jpg/1280px-Zimbabwe_landscape_hills.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Sacred granite landscape (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "manyuchi-dam",
+      "rank": 61,
+      "name": "Manyuchi Dam (Lake Manyuchi)",
+      "district": "Mwenezi",
+      "categories": ["lakes_dams"],
+      "tier": "secondary",
+      "summary": "Built in 1974 on the Mwenezi River. Picnics, fishing, sunset views. 4×4 recommended due to road conditions.",
+      "geo": { "lat": -21.4833, "lng": 30.6500 },
+      "distanceFromMasvingoKm": 200,
+      "drivingTimeFromMasvingoMin": 240,
+      "fourWheelDriveRequired": true,
+      "tags": ["dam", "fishing", "sunset", "remote"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Manyuchi_Dam.jpg/1280px-Manyuchi_Dam.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Manyuchi Dam at sunset",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "nuanetsi-ranch",
+      "rank": 62,
+      "name": "Nuanetsi Ranch",
+      "district": "Mwenezi",
+      "categories": ["agriculture", "wildlife"],
+      "tier": "secondary",
+      "summary": "Massive cattle and game ranch in Mwenezi. Site of a planned ethanol plant.",
+      "geo": { "lat": -21.7000, "lng": 30.7500 },
+      "distanceFromMasvingoKm": 230,
+      "drivingTimeFromMasvingoMin": 280,
+      "fourWheelDriveRequired": true,
+      "tags": ["ranch", "cattle", "game", "industry"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Zimbabwe_cattle_ranch.jpg/1280px-Zimbabwe_cattle_ranch.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Lowveld ranch (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "mwenezana-estate",
+      "rank": 63,
+      "name": "Mwenezana Estate",
+      "district": "Mwenezi",
+      "categories": ["agriculture"],
+      "tier": "tertiary",
+      "summary": "Sugar-related agricultural estate fed by Manyuchi Dam water.",
+      "geo": { "lat": -21.5500, "lng": 30.7000 },
+      "distanceFromMasvingoKm": 215,
+      "drivingTimeFromMasvingoMin": 260,
+      "fourWheelDriveRequired": true,
+      "tags": ["sugar", "estate", "irrigation"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Triangle_Sugar_Estate_Zimbabwe.jpg/1280px-Triangle_Sugar_Estate_Zimbabwe.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Lowveld sugar estate (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "matibi-2-communal",
+      "rank": 64,
+      "name": "Matibi 2 Communal Lands",
+      "district": "Mwenezi",
+      "categories": ["culture", "mountains"],
+      "tier": "tertiary",
+      "summary": "Cultural and rural baobab country — authentic Mwenezi communal landscape.",
+      "geo": { "lat": -21.6000, "lng": 30.9000 },
+      "distanceFromMasvingoKm": 220,
+      "drivingTimeFromMasvingoMin": 270,
+      "fourWheelDriveRequired": true,
+      "tags": ["communal", "baobab", "culture"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Baobab_tree_Zimbabwe.jpg/1280px-Baobab_tree_Zimbabwe.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Baobab tree in southern Zimbabwe",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "rutenga",
+      "rank": 65,
+      "name": "Rutenga",
+      "district": "Mwenezi",
+      "categories": ["city"],
+      "tier": "tertiary",
+      "summary": "Junction town and railway/road landmark in Mwenezi.",
+      "geo": { "lat": -21.2500, "lng": 30.7333 },
+      "distanceFromMasvingoKm": 175,
+      "drivingTimeFromMasvingoMin": 200,
+      "fourWheelDriveRequired": false,
+      "tags": ["town", "rail", "junction"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Zimbabwe_road.jpg/1280px-Zimbabwe_road.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Highway junction in southern Zimbabwe",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "mwenezi-river-valley",
+      "rank": 66,
+      "name": "Mwenezi River Valley",
+      "district": "Mwenezi",
+      "categories": ["lakes_dams", "wildlife"],
+      "tier": "tertiary",
+      "summary": "Scenic river course feeding Manyuchi Dam — birdlife and quiet riverside camps.",
+      "geo": { "lat": -21.4500, "lng": 30.7000 },
+      "distanceFromMasvingoKm": 200,
+      "drivingTimeFromMasvingoMin": 240,
+      "fourWheelDriveRequired": true,
+      "tags": ["river", "birding", "remote"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Runde_River_Zimbabwe.jpg/1280px-Runde_River_Zimbabwe.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Lowveld river valley (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "serima-mission",
+      "rank": 67,
+      "name": "Serima Mission",
+      "district": "Gutu",
+      "categories": ["religious", "culture", "heritage"],
+      "tier": "secondary",
+      "summary": "Famous Catholic mission with the Serima sculpture and woodcarving school. Internationally known for African Christian art and the Stations of the Cross.",
+      "geo": { "lat": -19.5500, "lng": 30.8000 },
+      "distanceFromMasvingoKm": 95,
+      "drivingTimeFromMasvingoMin": 110,
+      "fourWheelDriveRequired": false,
+      "tags": ["mission", "art", "carvings", "Catholic", "hidden-gem"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Serima_Mission_carvings.jpg/1280px-Serima_Mission_carvings.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Wood carvings at Serima Mission",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "mupandawana",
+      "rank": 68,
+      "name": "Mupandawana (Gutu Town)",
+      "district": "Gutu",
+      "categories": ["city"],
+      "tier": "tertiary",
+      "summary": "Recently granted town status. Administrative centre of Gutu District.",
+      "geo": { "lat": -19.6500, "lng": 31.4500 },
+      "distanceFromMasvingoKm": 94,
+      "drivingTimeFromMasvingoMin": 110,
+      "fourWheelDriveRequired": false,
+      "tags": ["town", "stopover"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Zimbabwean_market.jpg/1280px-Zimbabwean_market.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Mupandawana town life",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "gutu-mission",
+      "rank": 69,
+      "name": "Gutu Mission",
+      "district": "Gutu",
+      "categories": ["religious"],
+      "tier": "tertiary",
+      "summary": "Historic mission station and school — peaceful highveld grounds.",
+      "geo": { "lat": -19.6500, "lng": 31.4000 },
+      "distanceFromMasvingoKm": 90,
+      "drivingTimeFromMasvingoMin": 110,
+      "fourWheelDriveRequired": false,
+      "tags": ["mission", "education"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Mission_hospital_Africa.jpg/1280px-Mission_hospital_Africa.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Mission station (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "driefontein-area",
+      "rank": 70,
+      "name": "Driefontein Mission Area",
+      "district": "Gutu",
+      "categories": ["religious", "agriculture"],
+      "tier": "tertiary",
+      "summary": "Mission and farming country in Gutu. Quiet rural detour off the Masvingo–Mvuma road.",
+      "geo": { "lat": -19.5833, "lng": 30.7500 },
+      "distanceFromMasvingoKm": 85,
+      "drivingTimeFromMasvingoMin": 105,
+      "fourWheelDriveRequired": false,
+      "tags": ["mission", "farming"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Mission_hospital_Africa.jpg/1280px-Mission_hospital_Africa.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Mission grounds (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "manjirenji-dam",
+      "rank": 71,
+      "name": "Manjirenji Dam",
+      "district": "Zaka",
+      "categories": ["lakes_dams"],
+      "tier": "secondary",
+      "summary": "Built 1964–1966 to supply Hippo Valley irrigation. Fishing, picnics, tourism on the rise.",
+      "geo": { "lat": -20.4833, "lng": 31.4333 },
+      "distanceFromMasvingoKm": 105,
+      "drivingTimeFromMasvingoMin": 130,
+      "fourWheelDriveRequired": false,
+      "tags": ["dam", "fishing", "irrigation"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Manjirenji_Dam_Zimbabwe.jpg/1280px-Manjirenji_Dam_Zimbabwe.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Manjirenji Dam in Zaka District",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "manjirenji-recreational-park",
+      "rank": 72,
+      "name": "Manjirenji Recreational Park",
+      "district": "Zaka",
+      "categories": ["wildlife", "lakes_dams"],
+      "tier": "tertiary",
+      "summary": "Park surrounding Manjirenji Dam — quieter alternative to Mutirikwi.",
+      "geo": { "lat": -20.4833, "lng": 31.4333 },
+      "distanceFromMasvingoKm": 105,
+      "drivingTimeFromMasvingoMin": 130,
+      "fourWheelDriveRequired": false,
+      "tags": ["recreational-park", "fishing"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Manjirenji_Dam_Zimbabwe.jpg/1280px-Manjirenji_Dam_Zimbabwe.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Manjirenji Recreational Park",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "jerera-growth-point",
+      "rank": 73,
+      "name": "Jerera Growth Point",
+      "district": "Zaka",
+      "categories": ["city"],
+      "tier": "tertiary",
+      "summary": "Zaka District administrative centre and market town.",
+      "geo": { "lat": -20.3000, "lng": 31.4000 },
+      "distanceFromMasvingoKm": 96,
+      "drivingTimeFromMasvingoMin": 110,
+      "fourWheelDriveRequired": false,
+      "tags": ["growth-point", "market"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Zimbabwean_market.jpg/1280px-Zimbabwean_market.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Jerera growth point market",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "ndanga-historical",
+      "rank": 74,
+      "name": "Ndanga (Historical District Seat)",
+      "district": "Zaka",
+      "categories": ["heritage", "city"],
+      "tier": "tertiary",
+      "summary": "Historic former district seat with cultural and historical interest.",
+      "geo": { "lat": -20.3500, "lng": 31.3500 },
+      "distanceFromMasvingoKm": 100,
+      "drivingTimeFromMasvingoMin": 120,
+      "fourWheelDriveRequired": false,
+      "tags": ["historic", "heritage"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Fort_Victoria_Zimbabwe.jpg/1280px-Fort_Victoria_Zimbabwe.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Historic district building (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "harurwa-season-bikita",
+      "rank": 75,
+      "name": "Harurwa Season Experience (Nerumedzo)",
+      "district": "Bikita",
+      "categories": ["culture", "religious"],
+      "tier": "secondary",
+      "summary": "Annual harvest of edible stink bugs (April–August) — a unique cultural-culinary experience preceded by ancestral ceremonies.",
+      "geo": { "lat": -20.0833, "lng": 31.7500 },
+      "distanceFromMasvingoKm": 110,
+      "drivingTimeFromMasvingoMin": 130,
+      "fourWheelDriveRequired": false,
+      "bestSeason": "April to August",
+      "tags": ["culture", "harurwa", "food", "seasonal"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Encosternum_delegorguei_harurwa.jpg/1280px-Encosternum_delegorguei_harurwa.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Harurwa stink bugs (Encosternum delegorguei)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "great-limpopo-cultural-fair",
+      "rank": 76,
+      "name": "Great Limpopo Cultural Trade Fair",
+      "district": "Chiredzi",
+      "categories": ["culture"],
+      "tier": "secondary",
+      "summary": "Annual cross-border cultural fair (Zimbabwe / Mozambique / South Africa) at Boli Mhlanguleni since 2013.",
+      "geo": { "lat": -21.6500, "lng": 31.9167 },
+      "distanceFromMasvingoKm": 320,
+      "drivingTimeFromMasvingoMin": 360,
+      "fourWheelDriveRequired": true,
+      "bestSeason": "Annual (check dates)",
+      "tags": ["festival", "culture", "cross-border"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Shangani_dancers_Zimbabwe.jpg/1280px-Shangani_dancers_Zimbabwe.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Cultural festival dancers in southern Africa",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "mkonto-mine",
+      "rank": 77,
+      "name": "Mkonto Mine",
+      "district": "Bikita",
+      "categories": ["industry"],
+      "tier": "tertiary",
+      "summary": "Council-owned gold belt at Save Conservatives. Industrial-tourism interest.",
+      "geo": { "lat": -20.4500, "lng": 31.9500 },
+      "distanceFromMasvingoKm": 170,
+      "drivingTimeFromMasvingoMin": 200,
+      "fourWheelDriveRequired": true,
+      "tags": ["mining", "gold", "industry"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Lithium_mine_aerial.jpg/1280px-Lithium_mine_aerial.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Mining operation (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "chilonga-irrigation",
+      "rank": 78,
+      "name": "Chilonga Irrigation Scheme",
+      "district": "Chiredzi",
+      "categories": ["agriculture"],
+      "tier": "tertiary",
+      "summary": "Working agricultural landscape — citrus and crop fields, important irrigation engineering.",
+      "geo": { "lat": -21.3500, "lng": 31.7000 },
+      "distanceFromMasvingoKm": 290,
+      "drivingTimeFromMasvingoMin": 320,
+      "fourWheelDriveRequired": false,
+      "tags": ["irrigation", "citrus", "agriculture"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Triangle_Sugar_Estate_Zimbabwe.jpg/1280px-Triangle_Sugar_Estate_Zimbabwe.jpg",
+          "credit": "Wikimedia Commons (placeholder)",
+          "alt": "Irrigation landscape (placeholder)",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "tshovani-suburb",
+      "rank": 79,
+      "name": "Tshovani Suburb (Chiredzi)",
+      "district": "Chiredzi",
+      "categories": ["city", "culture"],
+      "tier": "tertiary",
+      "summary": "Sugar-industry community life. Lively suburb tied to Hippo Valley Estates.",
+      "geo": { "lat": -21.0500, "lng": 31.6667 },
+      "distanceFromMasvingoKm": 280,
+      "drivingTimeFromMasvingoMin": 300,
+      "fourWheelDriveRequired": false,
+      "tags": ["suburb", "community", "sugar-town"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Zimbabwean_market.jpg/1280px-Zimbabwean_market.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Tshovani community life",
+          "verify": true
+        }
+      ]
+    },
+    {
+      "id": "chiredzi-wildlife-area",
+      "rank": 80,
+      "name": "Chiredzi Wildlife Area",
+      "district": "Chiredzi",
+      "categories": ["wildlife"],
+      "tier": "tertiary",
+      "summary": "Broader savannah conservation zone (~5,000 km²) supporting elephants, antelopes, and the wider Lowveld ecosystem.",
+      "geo": { "lat": -21.2000, "lng": 31.9000 },
+      "distanceFromMasvingoKm": 300,
+      "drivingTimeFromMasvingoMin": 330,
+      "fourWheelDriveRequired": true,
+      "tags": ["conservation", "savannah", "wildlife"],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Gonarezhou_National_Park.jpg/1280px-Gonarezhou_National_Park.jpg",
+          "credit": "Wikimedia Commons",
+          "alt": "Lowveld savannah landscape",
+          "verify": true
+        }
+      ]
+    }
+  ],
+  "itineraries": [
+    {
+      "id": "heritage-half-day",
+      "title": "Heritage Half-Day",
+      "description": "Great Zimbabwe + Lake Mutirikwi + Masvingo Museum — perfect introduction to Masvingo's headline sights.",
+      "durationDays": 0.5,
+      "fourWheelDriveRequired": false,
+      "stops": ["great-zimbabwe", "lake-mutirikwi", "masvingo-museum"]
+    },
+    {
+      "id": "lake-and-dam-loop",
+      "title": "Lake & Dam Loop",
+      "description": "Mutirikwi to Mushandike to Tugwi-Mukosi — a full-day tour of Masvingo's biggest waters.",
+      "durationDays": 1,
+      "fourWheelDriveRequired": false,
+      "stops": ["lake-mutirikwi", "kyle-dam-wall", "mushandike-sanctuary", "mushandike-dam", "tugwi-mukosi-dam"]
+    },
+    {
+      "id": "lowveld-safari",
+      "title": "Lowveld Safari",
+      "description": "Chiredzi base camp, Gonarezhou with Chilojo Cliffs, Save Valley, and Malilangwe — 3 to 5 days, 4×4 essential.",
+      "durationDays": 4,
+      "fourWheelDriveRequired": true,
+      "stops": ["chipinda-pools", "gonarezhou-national-park", "chilojo-cliffs", "save-valley-conservancy", "malilangwe-wildlife-reserve"]
+    },
+    {
+      "id": "cultural-bikita",
+      "title": "Cultural Bikita",
+      "description": "Nerumedzo Sacred Forest, Chibvumani Ruins, and the Mashoko/Silveira missions — a deep cultural day.",
+      "durationDays": 1,
+      "fourWheelDriveRequired": false,
+      "stops": ["nerumedzo-sacred-forest", "chibvumani-ruins", "mashoko-mission", "silveira-mission", "harurwa-season-bikita"]
+    },
+    {
+      "id": "mwenezi-escape",
+      "title": "Mwenezi Escape",
+      "description": "Manyuchi Dam and the Nuanetsi ranchlands — quiet, remote, baobab country. 4×4 recommended.",
+      "durationDays": 2,
+      "fourWheelDriveRequired": true,
+      "stops": ["manyuchi-dam", "mwenezi-river-valley", "nuanetsi-ranch", "matibi-2-communal"]
+    },
+    {
+      "id": "gutu-art-detour",
+      "title": "Gutu Art Detour",
+      "description": "Serima Mission carvings — an under-visited gem for art lovers, on the way north.",
+      "durationDays": 0.5,
+      "fourWheelDriveRequired": false,
+      "stops": ["serima-mission", "mupandawana", "gutu-mission"]
+    },
+    {
+      "id": "zaka-quiet-fishing",
+      "title": "Zaka Quiet Fishing Day",
+      "description": "Manjirenji Dam and the surrounding Zaka country — calm and budget-friendly.",
+      "durationDays": 1,
+      "fourWheelDriveRequired": false,
+      "stops": ["manjirenji-dam", "manjirenji-recreational-park", "jerera-growth-point"]
+    }
+  ]
+}
